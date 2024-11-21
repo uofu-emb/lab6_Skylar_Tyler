@@ -31,5 +31,6 @@ int main (void)
     RUN_TEST(test_variable_assignment);
     RUN_TEST(test_multiplication);
     sleep_ms(5000);
+    
     return UNITY_END();
 }

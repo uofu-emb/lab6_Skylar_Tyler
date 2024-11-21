@@ -200,8 +200,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/realtime.dir/__/lib/freertos/tasks.c.obj.d"
   "CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj"
   "CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj.d"
-  "CMakeFiles/realtime.dir/gpio.c.obj"
-  "CMakeFiles/realtime.dir/gpio.c.obj.d"
+  "CMakeFiles/realtime.dir/main.c.obj"
+  "CMakeFiles/realtime.dir/main.c.obj.d"
   "realtime.elf"
   "realtime.pdb"
 )

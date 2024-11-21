@@ -1,5 +1,5 @@
 test/CMakeFiles/mytest.dir/unity_config.c.obj: \
- /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/test/unity_config.c \
+ /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdio.h \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
@@ -17,4 +17,4 @@ test/CMakeFiles/mytest.dir/unity_config.c.obj: \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
- /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/test/unity_config.h
+ /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h
