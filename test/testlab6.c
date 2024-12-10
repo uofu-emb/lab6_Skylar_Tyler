@@ -1,5 +1,6 @@
 #include <unity.h>
 #include "FreeRTOSConfig_examples_common.h"
+#include "portmacro.h"
 #include "unity_config.h"
 #include <stdio.h>
 #include <pico/stdlib.h>
@@ -10,7 +11,10 @@
 
 #define DELAY 500;
 
-SemaphoreHandle_t semaphore;
+static SemaphoreHandle_t semaphore;
+static TaskHandle_t t1; // max prio.
+static TaskHandle_t t2; // mid prio.
+static TaskHandle_t t3; // min prio.
 
 void setUp(void) {}
 
@@ -28,9 +32,11 @@ void tearDown(void) {}
 
 void max_t(void *args){
     while(1){
+        xSemaphoreTake(semaphore, portMAX_DELAY);
         printf("Thread1 running\n");
-        xSemaphoreGive(semaphore);
+        //xSemaphoreGive(semaphore);
         vTaskDelay(10);
+        xSemaphoreGive(semaphore);
     }
 }
 
@@ -53,20 +59,13 @@ void superVisor(void *args){
     semaphore = xSemaphoreCreateBinary();
     while(1){
         printf("Supervisor initialized\n");
-
-        TaskHandle_t t1; // max prio.
-        TaskHandle_t t2; // mid prio.
-        TaskHandle_t t3; // min prio.
-
-
         //higher priorty
-        xTaskCreate(max_t, "thread 1",
-                    configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+1, &t1);
+        xTaskCreate(max_t, "thread 1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+1, &t1);
         //mid priority
-        xTaskCreate(mid_t, "thread2",
-                    configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+2, &t2);
+        //xTaskCreate(mid_t, "thread2",
+        //            configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+2, &t2);
         //low priority.
-        xTaskCreate(low_t, "thread 3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &t3);
+        //xTaskCreate(low_t, "thread 3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &t3);
 
         vTaskStartScheduler();
 
