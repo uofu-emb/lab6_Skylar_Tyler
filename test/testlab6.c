@@ -1,4 +1,5 @@
 #include <unity.h>
+#include "FreeRTOSConfig_examples_common.h"
 #include "unity_config.h"
 #include <stdio.h>
 #include <pico/stdlib.h>
@@ -25,47 +26,54 @@ void tearDown(void) {}
 5. Predict the behavior of the system.
  */
 
-void thread1(void *args){
+void max_t(void *args){
     while(1){
-        printf("Thread1 running");
-        vTaskDelay(500);
+        printf("Thread1 running\n");
+        xSemaphoreGive(semaphore);
+        vTaskDelay(10);
     }
 }
 
-void thread2(void *args){
+void mid_t(void *args){
     while(1){
-        printf("Thread2 running");
+        printf("Thread2 running\n");
         xSemaphoreTake(semaphore, portMAX_DELAY);
         printf("Thread2 running");
-        vTaskDelay(50000);
-        printf("Thread2 running");
-
-        
-        
+        vTaskDelay(10);
+    }
+}
+void low_t(void *args){
+    while(1){
+        printf("Thread 3 low prior running\n");
+        vTaskDelay(10);
     }
 }
 
 void superVisor(void *args){
+    semaphore = xSemaphoreCreateBinary();
     while(1){
         printf("Supervisor initialized\n");
 
-        TaskHandle_t t1;
-        TaskHandle_t t2;
-        
-        semaphore = xSemaphoreCreateBinary();
-        
-        //lower priorty
-        xTaskCreate(thread1, "thread 1",
+        TaskHandle_t t1; // max prio.
+        TaskHandle_t t2; // mid prio.
+        TaskHandle_t t3; // min prio.
+
+
+        //higher priorty
+        xTaskCreate(max_t, "thread 1",
                     configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+1, &t1);
-        
-        xTaskCreate(thread2, "thread2",
+        //mid priority
+        xTaskCreate(mid_t, "thread2",
                     configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+2, &t2);
-        
+        //low priority.
+        xTaskCreate(low_t, "thread 3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &t3);
+
         vTaskStartScheduler();
-       
-        vSemaphoreDelete(semaphore);
+
+        //vSemaphoreDelete(semaphore);
     }
-    
+    vSemaphoreDelete(semaphore);
+
 }
 
 int main (void)
@@ -73,8 +81,8 @@ int main (void)
     printf("Start tests\n");
 
     stdio_init_all();
-    
-    
+
+
     TaskHandle_t main_handle;
     sleep_ms(5000); // Give time for TTY to attach.
     printf("Start tests\n");
@@ -84,7 +92,7 @@ int main (void)
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+10, &main_handle);
     vTaskStartScheduler();
 
-    
+
     sleep_ms(5000);
     return UNITY_END();
 }
