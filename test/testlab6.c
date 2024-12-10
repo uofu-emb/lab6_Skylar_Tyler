@@ -1,3 +1,4 @@
+#include <pico/time.h>
 #include <unity.h>
 #include "FreeRTOSConfig_examples_common.h"
 #include "portmacro.h"
@@ -31,13 +32,11 @@ void tearDown(void) {}
  */
 
 void max_t(void *args){
-    while(1){
-        xSemaphoreTake(semaphore, portMAX_DELAY);
         printf("Thread1 running\n");
+        //xSemaphoreTake(semaphore, portMAX_DELAY);
         //xSemaphoreGive(semaphore);
-        vTaskDelay(10);
-        xSemaphoreGive(semaphore);
-    }
+        //vTaskDelay(10000);
+        //xSemaphoreGive(semaphore);
 }
 
 void mid_t(void *args){
@@ -56,8 +55,7 @@ void low_t(void *args){
 }
 
 void superVisor(void *args){
-    semaphore = xSemaphoreCreateBinary();
-    while(1){
+    //semaphore = xSemaphoreCreateBinary();
         printf("Supervisor initialized\n");
         //higher priorty
         xTaskCreate(max_t, "thread 1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+1, &t1);
@@ -67,11 +65,11 @@ void superVisor(void *args){
         //low priority.
         //xTaskCreate(low_t, "thread 3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &t3);
 
-        vTaskStartScheduler();
+        //vTaskStartScheduler();
 
         //vSemaphoreDelete(semaphore);
-    }
-    vSemaphoreDelete(semaphore);
+        vTaskDelay(100);
+    //vSemaphoreDelete(semaphore);
 
 }
 
@@ -87,11 +85,12 @@ int main (void)
     printf("Start tests\n");
     UNITY_BEGIN();
     //this is where  tests occu
+    //vTaskStartScheduler();
     xTaskCreate(superVisor, "superVisor",
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+10, &main_handle);
     vTaskStartScheduler();
-
-
+    printf("got out of the main loop");
     sleep_ms(5000);
-    return UNITY_END();
+    UNITY_END();
+    return 0;
 }
