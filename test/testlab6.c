@@ -32,11 +32,17 @@ void tearDown(void) {}
  */
 
 void max_t(void *args){
+        //vTaskResume(t1);
         printf("Thread1 running\n");
+        configASSERT(t1);
+        //xTaskNotify(xTaskToNotify, ulValue, eAction)
+
         //xSemaphoreTake(semaphore, portMAX_DELAY);
         //xSemaphoreGive(semaphore);
         //vTaskDelay(10000);
         //xSemaphoreGive(semaphore);
+        vTaskDelay(100);
+        //vTaskSuspend(t1);
 }
 
 void mid_t(void *args){
@@ -56,9 +62,10 @@ void low_t(void *args){
 
 void superVisor(void *args){
     //semaphore = xSemaphoreCreateBinary();
-        printf("Supervisor initialized\n");
+        printf("Supervisor initialized");
         //higher priorty
-        xTaskCreate(max_t, "thread 1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+1, &t1);
+        //xTaskCreate(max_t, "thread 1", 1024, NULL, 1, &t1);
+
         //mid priority
         //xTaskCreate(mid_t, "thread2",
         //            configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+2, &t2);
@@ -68,7 +75,7 @@ void superVisor(void *args){
         //vTaskStartScheduler();
 
         //vSemaphoreDelete(semaphore);
-        vTaskDelay(100);
+       // vTaskDelay(100);
     //vSemaphoreDelete(semaphore);
 
 }
@@ -87,7 +94,7 @@ int main (void)
     //this is where  tests occu
     //vTaskStartScheduler();
     xTaskCreate(superVisor, "superVisor",
-                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+10, &main_handle);
+                1024, NULL, 1, &main_handle);
     vTaskStartScheduler();
     printf("got out of the main loop");
     sleep_ms(5000);
