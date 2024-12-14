@@ -1,7 +1,9 @@
+#include <pico/sem.h>
 #include <pico/time.h>
 #include <unity.h>
 #include "FreeRTOSConfig_examples_common.h"
 #include "portmacro.h"
+#include "projdefs.h"
 #include "unity_config.h"
 #include "unity_internals.h"
 #include <stdio.h>
@@ -13,8 +15,9 @@
 //#define configUSE_IDLE_HOOK 1
 
 #define DELAY 500;
-
+//for semaphore
 static SemaphoreHandle_t semaphore;
+static SemaphoreHandle_t mutex;
 static TaskHandle_t main_handle; // this is the main handle
 static TaskHandle_t t1; // max prio.
 static TaskHandle_t t2; // mid prio.
@@ -35,49 +38,42 @@ void tearDown(void) {}
  */
 
 void max_t(void *args){
-    while(1){
-        //xSemaphoreTake(semaphore, portMAX_DELAY);
         printf("Thread1 running\n");
-        //xSemaphoreGive(semaphore);
-        vTaskDelay(100);
-        ///xSemaphoreGive(semaphore);
-    }
+        vTaskDelay(10);
+        vTaskDelete(NULL);
 }
 
 void mid_t(void *args){
     while(1){
-        printf("Thread2 running\n");
-        //xSemaphoreTake(semaphore, portMAX_DELAY);
+        printf("Mid_t chicken\n");
+        //if (xSemaphoreTake(semaphore,(TickType_t)10) == pdTRUE){
+        xSemaphoreTake(semaphore, portMAX_DELAY);
         printf("Thread2 running\n");
         vTaskDelay(10);
+        //}
+        //else{
+            printf("monkey magic\n");
+            //}
+        xSemaphoreGive(semaphore);
     }
+        vTaskDelete(NULL);
 }
+
 void min_t(void *args){
-    while(1){
         printf("Thread 3 low prior running\n");
         vTaskDelay(10);
-    }
+        vTaskDelete(NULL);
 }
-void vApplciationIdleHook(void){
-    printf("MONKEY MAGIC?\n");
-}
+
 
 void superVisor(void *args){
-            UNITY_BEGIN();
-            int i = 0;
-            bool k = 1;
-            while(k){
-            printf("Supervisor initialized\n");
-            i++;
-            if(i== 5){
-            k = 0;
-            }
-            }
-            printf("this code is where things will break");
-            UNITY_END();
-            vTaskDelay(1000);
-
-        vTaskDelete(NULL);
+    //while(1){
+     semaphore = xSemaphoreCreateBinary();
+    UNITY_BEGIN();
+    printf("Supervisor initialized\n");
+    UNITY_END();
+    vSemaphoreDelete(semaphore);
+    vTaskDelete(NULL);
 }
 
 int main (void)
@@ -88,12 +84,15 @@ int main (void)
 
 
     TaskHandle_t main_handle;
+
     sleep_ms(5000); // Give time for TTY to attach.
     printf("Start tests\n");
     //this is where  tests occu
+    //xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
     xTaskCreate(superVisor, "superVisor",
-                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 5UL, NULL);
-    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 3UL, &t1);
+                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
+
+    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 3UL, &t1);
     xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
     xTaskCreate(min_t, "t3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t3);
 

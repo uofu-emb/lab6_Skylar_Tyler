@@ -1,6 +1,7 @@
 test/CMakeFiles/mytest.dir/testlab6.c.obj: \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c \
- /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/include/pico/time.h \
+ /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/include/pico/sem.h \
+ /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/include/pico/lock_core.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -37,11 +38,14 @@ test/CMakeFiles/mytest.dir/testlab6.c.obj: \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
+ /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/include/pico/time.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/setjmp.h \
@@ -61,8 +65,7 @@ test/CMakeFiles/mytest.dir/testlab6.c.obj: \
  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
- /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h \
  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h \
  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_stdlib_headers/include/pico/stdlib.h \

@@ -5395,6 +5395,8 @@ test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE57
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/include/pico/sem.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/include/pico/time.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
