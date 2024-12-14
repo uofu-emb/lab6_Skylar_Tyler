@@ -22,6 +22,16 @@ static TaskHandle_t main_handle; // this is the main handle
 static TaskHandle_t t1; // max prio.
 static TaskHandle_t t2; // mid prio.
 static TaskHandle_t t3; // min prio.
+static TaskHandle_t t4;
+static TaskHandle_t t5;
+static TaskHandle_t t6;
+static TaskHandle_t t7;
+static TaskHandle_t t8;
+static TaskHandle_t t9;
+static TaskHandle_t t10;
+static TaskHandle_t t11;
+static TaskHandle_t t12;
+static TaskHandle_t t13;
 
 void setUp(void) {}
 
@@ -66,13 +76,13 @@ void min_t(void *args){
         vTaskDelete(NULL);
 }
 
-void busy_busy(void)
+void busy_busy(void *args)
 {
     for (int i = 0; ; i++);
 }
 
 
-void busy_yield(void)
+void busy_yield(void *args)
 {
     for (int i = 0; ; i++) {
         taskYIELD();
@@ -118,15 +128,16 @@ int main (void)
 
     //ACTIVITY 2 P1
 
-    TickType_t start_ticks = xTaskGetTickCount();
+    //TickType_t start_ticks = xTaskGetTickCount();
     xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
     xTaskCreate(busy_busy, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
-    printf("timing code here")
+    printf("timing code here\n");
 
-    TickType_t end_ticks = xTaskGetTickCount();
+    //TickType_t end_ticks = xTaskGetTickCount();
 
-    TickType_t elapsed_ticks = end_ticks - start_ticks;
-    printf(elapsed_ticks);
+    //TickType_t elapsed_ticks = end_ticks - start_ticks;
+    //*total_ticks = elapsed_ticks;
+    //printf(total_ticks);
 
 
     //P2
@@ -143,7 +154,7 @@ int main (void)
 
     xTaskCreate(busy_busy, "t10", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t10);
     xTaskCreate(busy_busy, "t11", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t11);
-    printf("timing code here")
+    printf("timing code here\n");
 
     //P2
     xTaskCreate(busy_yield, "t12", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t12);
