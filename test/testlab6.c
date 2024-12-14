@@ -48,7 +48,7 @@ void mid_t(void *args){
     while(1){
         printf("Thread2 running\n");
         //xSemaphoreTake(semaphore, portMAX_DELAY);
-        printf("Thread2 running");
+        printf("Thread2 running\n");
         vTaskDelay(10);
     }
 }
@@ -63,9 +63,6 @@ void vApplciationIdleHook(void){
 }
 
 void superVisor(void *args){
-    //semaphore = xSemaphoreCreateBinary();
-        //vTaskResume(main_handle);
-        e:
             UNITY_BEGIN();
             int i = 0;
             bool k = 1;
@@ -78,15 +75,9 @@ void superVisor(void *args){
             }
             printf("this code is where things will break");
             UNITY_END();
-            //xTaskCreate(TaskFunction_t pxTaskCode, const char *const pcName, const uint32_t uxStackDepth, void *const pvParameters, UBaseType_t uxPriority, TaskHandle_t *const pxCreatedTask)
-            //return;
-            sleep_ms(1000);
             vTaskDelay(1000);
 
-        goto e;
-        //vTaskSuspend(main_handle);
-    //vSemaphoreDelete(semaphore);
-
+        vTaskDelete(NULL);
 }
 
 int main (void)
@@ -99,19 +90,15 @@ int main (void)
     TaskHandle_t main_handle;
     sleep_ms(5000); // Give time for TTY to attach.
     printf("Start tests\n");
-    UNITY_BEGIN();
     //this is where  tests occu
     xTaskCreate(superVisor, "superVisor",
-                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
-    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t1);
+                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 5UL, NULL);
+    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 3UL, &t1);
     xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
-    xTaskCreate(min_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 3UL, &t3);
+    xTaskCreate(min_t, "t3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t3);
 
     vTaskStartScheduler();
-
-    xTaskCreate(max_t, "mask task", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &main_handle);
-    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t1);
-    vTaskStartScheduler();
+    //if things go wrong here something major has gone wrong
 
     sleep_ms(5000);
     return UNITY_END();
