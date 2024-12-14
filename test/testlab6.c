@@ -44,19 +44,20 @@ void max_t(void *args){
 }
 
 void mid_t(void *args){
-    while(1){
-        printf("Mid_t chicken\n");
-        //if (xSemaphoreTake(semaphore,(TickType_t)10) == pdTRUE){
-        xSemaphoreTake(semaphore, portMAX_DELAY);
+        //if (xSemaphoreTake(semaphore, 100) == pdTRUE){
+        xSemaphoreTake(mutex, 100);
         printf("Thread2 running\n");
         vTaskDelay(10);
+        xSemaphoreGive(mutex);
         //}
         //else{
-            printf("monkey magic\n");
+            //printf("dum dum give me gum gum\n");
+        //}
+
+        //}
+        //else{
             //}
-        xSemaphoreGive(semaphore);
-    }
-        vTaskDelete(NULL);
+            vTaskDelete(NULL);
 }
 
 void min_t(void *args){
@@ -68,11 +69,13 @@ void min_t(void *args){
 
 void superVisor(void *args){
     //while(1){
-     semaphore = xSemaphoreCreateBinary();
-    UNITY_BEGIN();
     printf("Supervisor initialized\n");
-    UNITY_END();
+    semaphore = xSemaphoreCreateBinary();
+    mutex = xSemaphoreCreateMutex();
+    //UNITY_BEGIN();
+    //UNITY_END();
     vSemaphoreDelete(semaphore);
+    vSemaphoreDelete(mutex);
     vTaskDelete(NULL);
 }
 
@@ -82,7 +85,8 @@ int main (void)
 
     stdio_init_all();
 
-
+    semaphore = xSemaphoreCreateBinary();
+    mutex = xSemaphoreCreateMutex();
     TaskHandle_t main_handle;
 
     sleep_ms(5000); // Give time for TTY to attach.
