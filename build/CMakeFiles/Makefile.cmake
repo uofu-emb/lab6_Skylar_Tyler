@@ -324,5 +324,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/realtime.dir/DependInfo.cmake"
   "src/CMakeFiles/flash.dir/DependInfo.cmake"
   "test/CMakeFiles/mytest.dir/DependInfo.cmake"
+  "test/CMakeFiles/semTest.dir/DependInfo.cmake"
   "test/CMakeFiles/flash_test.dir/DependInfo.cmake"
   )

@@ -50,7 +50,7 @@
 						25,
 						26,
 						27,
-						36
+						37
 					]
 				},
 				{
@@ -1233,7 +1233,8 @@
 					"targetIndexes" : 
 					[
 						33,
-						34
+						34,
+						36
 					]
 				}
 			],
@@ -1287,7 +1288,8 @@
 						33,
 						34,
 						35,
-						36
+						36,
+						37
 					]
 				},
 				{
@@ -1642,14 +1644,14 @@
 				{
 					"directoryIndex" : 96,
 					"id" : "flash_test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-flash_test-Release-60838f43b301fb7265e7.json",
+					"jsonFile" : "target-flash_test-Release-723e1c8f11c25e4ee5d9.json",
 					"name" : "flash_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 96,
 					"id" : "mytest::@36f028580bb02cc8272a",
-					"jsonFile" : "target-mytest-Release-e8314987c3980e59a492.json",
+					"jsonFile" : "target-mytest-Release-8bdb2643eae71c874773.json",
 					"name" : "mytest",
 					"projectIndex" : 0
 				},
@@ -1658,6 +1660,13 @@
 					"id" : "realtime::@145eef247bfb46b6828c",
 					"jsonFile" : "target-realtime-Release-c66cde9471d5eb2bcea9.json",
 					"name" : "realtime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "semTest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-semTest-Release-63184716023e99569b75.json",
+					"name" : "semTest",
 					"projectIndex" : 0
 				},
 				{

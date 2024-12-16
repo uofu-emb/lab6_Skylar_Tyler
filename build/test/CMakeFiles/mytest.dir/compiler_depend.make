@@ -5387,7 +5387,7 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj: /Users/tyler/Documents/
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c \
+test/CMakeFiles/mytest.dir/testSemaBin.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5481,8 +5481,7 @@ test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE57
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h
+  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h
 
 test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
@@ -5504,9 +5503,9 @@ test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/E
   /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h
 
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c:
-
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h:
+
+/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c:
 
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity.h:
 
@@ -5516,7 +5515,7 @@ test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/E
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/limits.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c:
+/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c:
 
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/timers.c:
 

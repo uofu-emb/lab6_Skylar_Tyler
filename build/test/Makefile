@@ -141,6 +141,20 @@ mytest/fast:
 .PHONY : mytest/fast
 
 # Convenience name for target.
+test/CMakeFiles/semTest.dir/rule:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/semTest.dir/rule
+.PHONY : test/CMakeFiles/semTest.dir/rule
+
+# Convenience name for target.
+semTest: test/CMakeFiles/semTest.dir/rule
+.PHONY : semTest
+
+# fast build rule for target.
+semTest/fast:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/build
+.PHONY : semTest/fast
+
+# Convenience name for target.
 test/CMakeFiles/flash_test.dir/rule:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/flash_test.dir/rule
 .PHONY : test/CMakeFiles/flash_test.dir/rule
@@ -688,6 +702,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.obj: Users/tyler
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
@@ -696,6 +711,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.i: Users/tyler/.
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
@@ -704,6 +720,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.s: Users/tyler/.
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
@@ -712,6 +729,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.obj: Users
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
@@ -720,6 +738,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.i: Users/t
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
@@ -728,6 +747,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.s: Users/t
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
@@ -736,6 +756,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.obj: Users/tyler/
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
@@ -744,6 +765,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.i: Users/tyler/.p
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
@@ -752,6 +774,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.s: Users/tyler/.p
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
@@ -760,6 +783,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.obj: Users/tyler/.pic
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
@@ -768,6 +792,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.i: Users/tyler/.pico-
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
@@ -776,6 +801,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.s: Users/tyler/.pico-
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
@@ -784,6 +810,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.obj: Users/tyler/.pico-
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
@@ -792,6 +819,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.i: Users/tyler/.pico-sd
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
@@ -800,6 +828,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.s: Users/tyler/.pico-sd
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
@@ -808,6 +837,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.obj: Users/tyler/.pico
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
@@ -816,6 +846,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.i: Users/tyler/.pico-s
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
@@ -824,6 +855,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.s: Users/tyler/.pico-s
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
@@ -832,6 +864,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.obj: Users/t
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
@@ -840,6 +873,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.i: Users/tyl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
@@ -848,6 +882,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.s: Users/tyl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
@@ -856,6 +891,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.obj: Users/tyler/.
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
@@ -864,6 +900,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.i: Users/tyler/.pi
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
@@ -872,6 +909,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.s: Users/tyler/.pi
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
@@ -880,6 +918,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.obj: Users/tyler/.pic
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
@@ -888,6 +927,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.i: Users/tyler/.pico-
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
@@ -896,6 +936,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.s: Users/tyler/.pico-
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
@@ -904,6 +945,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.obj: Users/tyler/.pic
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
@@ -912,6 +954,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.i: Users/tyler/.pico-
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
@@ -920,6 +963,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.s: Users/tyler/.pico-
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
@@ -928,6 +972,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
@@ -936,6 +981,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
@@ -944,6 +990,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
@@ -952,6 +999,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.obj:
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -960,6 +1008,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.i: U
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -968,6 +1017,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.s: U
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -976,6 +1026,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.obj: Users
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
@@ -984,6 +1035,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.i: Users/t
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
@@ -992,6 +1044,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.s: Users/t
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
@@ -1000,6 +1053,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.obj: Use
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
@@ -1032,6 +1086,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.obj:
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.i
@@ -1040,6 +1095,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.i: U
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.s
@@ -1048,6 +1104,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.s: U
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj
@@ -1080,6 +1137,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1088,6 +1146,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1096,6 +1155,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
@@ -1104,6 +1164,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.obj: Users/tyler
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
@@ -1112,6 +1173,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.i: Users/tyler/.
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
@@ -1120,6 +1182,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.s: Users/tyler/.
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -1128,6 +1191,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.ob
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
@@ -1160,6 +1224,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.obj: Users/tyler
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
@@ -1168,6 +1233,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.i: Users/tyler/.
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
@@ -1176,6 +1242,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.s: Users/tyler/.
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
@@ -1184,6 +1251,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
@@ -1192,6 +1260,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
@@ -1200,6 +1269,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
@@ -1208,6 +1278,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1216,6 +1287,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1224,6 +1296,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
@@ -1232,6 +1305,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.obj: Users/t
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1240,6 +1314,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.i: Users/tyl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1248,6 +1323,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.s: Users/tyl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
@@ -1256,6 +1332,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.obj: Users/t
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
@@ -1264,6 +1341,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.i: Users/tyl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
@@ -1272,6 +1350,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.s: Users/tyl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
@@ -1280,6 +1359,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
@@ -1288,6 +1368,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
@@ -1296,6 +1377,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1304,6 +1386,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1312,6 +1395,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1320,6 +1404,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1328,6 +1413,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.obj: U
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1336,6 +1422,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.i: Use
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1344,6 +1431,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.s: Use
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1352,6 +1440,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1360,6 +1449,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1368,6 +1458,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
@@ -1376,6 +1467,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.i
@@ -1384,6 +1476,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.s
@@ -1392,6 +1485,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
@@ -1400,6 +1494,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.i
@@ -1408,6 +1503,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.s
@@ -1416,6 +1512,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
@@ -1448,6 +1545,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
@@ -1456,6 +1554,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
@@ -1464,6 +1563,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1472,6 +1572,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: U
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1480,6 +1581,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.obj: Users/t
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1488,6 +1590,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.i: Users/tyl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1496,6 +1599,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.s: Users/tyl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
@@ -1504,6 +1608,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.obj: Us
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1512,6 +1617,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.i: User
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1520,6 +1626,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.s: User
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
@@ -1528,6 +1635,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interf
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1536,6 +1644,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interf
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1544,6 +1653,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interf
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
@@ -1552,6 +1662,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.obj: Users/tyler/.
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
@@ -1560,6 +1671,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.obj: 
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1568,6 +1680,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.i: Us
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1576,6 +1689,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.s: Us
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
@@ -1776,6 +1890,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.obj
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
@@ -1784,6 +1899,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.o
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
@@ -1792,6 +1908,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp204
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1800,6 +1917,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp204
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1808,6 +1926,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp204
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
@@ -1816,6 +1935,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.obj: User
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
@@ -1824,6 +1944,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.i: Users/
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
@@ -1832,6 +1953,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.s: Users/
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
@@ -1840,6 +1962,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1872,6 +1995,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.obj
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
@@ -1880,6 +2004,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1888,6 +2013,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1896,6 +2022,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
@@ -1904,6 +2031,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.obj: Users/
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
@@ -1912,6 +2040,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.i: Users/ty
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
@@ -1920,6 +2049,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.s: Users/ty
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
@@ -1928,6 +2058,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp20
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1936,6 +2067,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aea
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
@@ -1944,6 +2076,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
@@ -1952,6 +2085,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
@@ -1960,6 +2094,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1968,6 +2103,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: U
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
@@ -1976,6 +2112,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.obj: Use
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.i
@@ -1984,6 +2121,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.i: Users
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.s
@@ -1992,6 +2130,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.s: Users
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
@@ -2000,6 +2139,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.obj: Us
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
@@ -2008,6 +2148,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.i: User
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
@@ -2016,6 +2157,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.s: User
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
@@ -2024,6 +2166,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
@@ -2032,6 +2175,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
@@ -2040,6 +2184,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
@@ -2048,6 +2193,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.obj: Users/t
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
@@ -2056,6 +2202,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.i: Users/tyl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
@@ -2064,6 +2211,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.s: Users/tyl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
@@ -2072,6 +2220,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.ob
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -2080,6 +2229,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.i:
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -2088,6 +2238,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.s:
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
@@ -2096,6 +2247,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_cl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -2104,6 +2256,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_cl
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -2112,6 +2265,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_cl
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
@@ -2120,6 +2274,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_st
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -2128,6 +2283,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_st
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -2136,6 +2292,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_st
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
@@ -2144,6 +2301,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standar
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -2152,6 +2310,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standar
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -2160,6 +2319,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standar
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
@@ -2168,6 +2328,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.obj: Users/tyler
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
@@ -2176,6 +2337,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.i: Users/tyler/.
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
@@ -2184,7 +2346,32 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.s: Users/tyler/.
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.s
+
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+
+# target to build an object file
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.obj
@@ -2264,6 +2451,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.obj: Users/tyl
 # target to build an object file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.i: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -2272,6 +2460,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.i: Users/tyler
 # target to preprocess a source file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.s: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -2280,6 +2469,7 @@ Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.s: Users/tyler
 # target to generate assembly for a file
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.obj: Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -2312,6 +2502,7 @@ __/lib/freertos/croutine.obj: __/lib/freertos/croutine.c.obj
 # target to build an object file
 __/lib/freertos/croutine.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/croutine.c.obj
 .PHONY : __/lib/freertos/croutine.c.obj
 
 __/lib/freertos/croutine.i: __/lib/freertos/croutine.c.i
@@ -2320,6 +2511,7 @@ __/lib/freertos/croutine.i: __/lib/freertos/croutine.c.i
 # target to preprocess a source file
 __/lib/freertos/croutine.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/croutine.c.i
 .PHONY : __/lib/freertos/croutine.c.i
 
 __/lib/freertos/croutine.s: __/lib/freertos/croutine.c.s
@@ -2328,6 +2520,7 @@ __/lib/freertos/croutine.s: __/lib/freertos/croutine.c.s
 # target to generate assembly for a file
 __/lib/freertos/croutine.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/croutine.c.s
 .PHONY : __/lib/freertos/croutine.c.s
 
 __/lib/freertos/event_groups.obj: __/lib/freertos/event_groups.c.obj
@@ -2336,6 +2529,7 @@ __/lib/freertos/event_groups.obj: __/lib/freertos/event_groups.c.obj
 # target to build an object file
 __/lib/freertos/event_groups.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/event_groups.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/event_groups.c.obj
 .PHONY : __/lib/freertos/event_groups.c.obj
 
 __/lib/freertos/event_groups.i: __/lib/freertos/event_groups.c.i
@@ -2344,6 +2538,7 @@ __/lib/freertos/event_groups.i: __/lib/freertos/event_groups.c.i
 # target to preprocess a source file
 __/lib/freertos/event_groups.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/event_groups.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/event_groups.c.i
 .PHONY : __/lib/freertos/event_groups.c.i
 
 __/lib/freertos/event_groups.s: __/lib/freertos/event_groups.c.s
@@ -2352,6 +2547,7 @@ __/lib/freertos/event_groups.s: __/lib/freertos/event_groups.c.s
 # target to generate assembly for a file
 __/lib/freertos/event_groups.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/event_groups.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/event_groups.c.s
 .PHONY : __/lib/freertos/event_groups.c.s
 
 __/lib/freertos/list.obj: __/lib/freertos/list.c.obj
@@ -2360,6 +2556,7 @@ __/lib/freertos/list.obj: __/lib/freertos/list.c.obj
 # target to build an object file
 __/lib/freertos/list.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/list.c.obj
 .PHONY : __/lib/freertos/list.c.obj
 
 __/lib/freertos/list.i: __/lib/freertos/list.c.i
@@ -2368,6 +2565,7 @@ __/lib/freertos/list.i: __/lib/freertos/list.c.i
 # target to preprocess a source file
 __/lib/freertos/list.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/list.c.i
 .PHONY : __/lib/freertos/list.c.i
 
 __/lib/freertos/list.s: __/lib/freertos/list.c.s
@@ -2376,6 +2574,7 @@ __/lib/freertos/list.s: __/lib/freertos/list.c.s
 # target to generate assembly for a file
 __/lib/freertos/list.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/list.c.s
 .PHONY : __/lib/freertos/list.c.s
 
 __/lib/freertos/portable/MemMang/heap_4.obj: __/lib/freertos/portable/MemMang/heap_4.c.obj
@@ -2384,6 +2583,7 @@ __/lib/freertos/portable/MemMang/heap_4.obj: __/lib/freertos/portable/MemMang/he
 # target to build an object file
 __/lib/freertos/portable/MemMang/heap_4.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
 .PHONY : __/lib/freertos/portable/MemMang/heap_4.c.obj
 
 __/lib/freertos/portable/MemMang/heap_4.i: __/lib/freertos/portable/MemMang/heap_4.c.i
@@ -2392,6 +2592,7 @@ __/lib/freertos/portable/MemMang/heap_4.i: __/lib/freertos/portable/MemMang/heap
 # target to preprocess a source file
 __/lib/freertos/portable/MemMang/heap_4.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/MemMang/heap_4.c.i
 .PHONY : __/lib/freertos/portable/MemMang/heap_4.c.i
 
 __/lib/freertos/portable/MemMang/heap_4.s: __/lib/freertos/portable/MemMang/heap_4.c.s
@@ -2400,6 +2601,7 @@ __/lib/freertos/portable/MemMang/heap_4.s: __/lib/freertos/portable/MemMang/heap
 # target to generate assembly for a file
 __/lib/freertos/portable/MemMang/heap_4.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/MemMang/heap_4.c.s
 .PHONY : __/lib/freertos/portable/MemMang/heap_4.c.s
 
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.obj: __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
@@ -2408,6 +2610,7 @@ __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.obj: __/lib/freertos/portabl
 # target to build an object file
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
 .PHONY : __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
 
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.i: __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.i
@@ -2416,6 +2619,7 @@ __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.i: __/lib/freertos/portable/
 # target to preprocess a source file
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.i
 .PHONY : __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.i
 
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.s: __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.s
@@ -2424,6 +2628,7 @@ __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.s: __/lib/freertos/portable/
 # target to generate assembly for a file
 __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.s
 .PHONY : __/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.s
 
 __/lib/freertos/queue.obj: __/lib/freertos/queue.c.obj
@@ -2432,6 +2637,7 @@ __/lib/freertos/queue.obj: __/lib/freertos/queue.c.obj
 # target to build an object file
 __/lib/freertos/queue.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/queue.c.obj
 .PHONY : __/lib/freertos/queue.c.obj
 
 __/lib/freertos/queue.i: __/lib/freertos/queue.c.i
@@ -2440,6 +2646,7 @@ __/lib/freertos/queue.i: __/lib/freertos/queue.c.i
 # target to preprocess a source file
 __/lib/freertos/queue.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/queue.c.i
 .PHONY : __/lib/freertos/queue.c.i
 
 __/lib/freertos/queue.s: __/lib/freertos/queue.c.s
@@ -2448,6 +2655,7 @@ __/lib/freertos/queue.s: __/lib/freertos/queue.c.s
 # target to generate assembly for a file
 __/lib/freertos/queue.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/queue.c.s
 .PHONY : __/lib/freertos/queue.c.s
 
 __/lib/freertos/stream_buffer.obj: __/lib/freertos/stream_buffer.c.obj
@@ -2456,6 +2664,7 @@ __/lib/freertos/stream_buffer.obj: __/lib/freertos/stream_buffer.c.obj
 # target to build an object file
 __/lib/freertos/stream_buffer.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/stream_buffer.c.obj
 .PHONY : __/lib/freertos/stream_buffer.c.obj
 
 __/lib/freertos/stream_buffer.i: __/lib/freertos/stream_buffer.c.i
@@ -2464,6 +2673,7 @@ __/lib/freertos/stream_buffer.i: __/lib/freertos/stream_buffer.c.i
 # target to preprocess a source file
 __/lib/freertos/stream_buffer.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/stream_buffer.c.i
 .PHONY : __/lib/freertos/stream_buffer.c.i
 
 __/lib/freertos/stream_buffer.s: __/lib/freertos/stream_buffer.c.s
@@ -2472,6 +2682,7 @@ __/lib/freertos/stream_buffer.s: __/lib/freertos/stream_buffer.c.s
 # target to generate assembly for a file
 __/lib/freertos/stream_buffer.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/stream_buffer.c.s
 .PHONY : __/lib/freertos/stream_buffer.c.s
 
 __/lib/freertos/tasks.obj: __/lib/freertos/tasks.c.obj
@@ -2480,6 +2691,7 @@ __/lib/freertos/tasks.obj: __/lib/freertos/tasks.c.obj
 # target to build an object file
 __/lib/freertos/tasks.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/tasks.c.obj
 .PHONY : __/lib/freertos/tasks.c.obj
 
 __/lib/freertos/tasks.i: __/lib/freertos/tasks.c.i
@@ -2488,6 +2700,7 @@ __/lib/freertos/tasks.i: __/lib/freertos/tasks.c.i
 # target to preprocess a source file
 __/lib/freertos/tasks.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/tasks.c.i
 .PHONY : __/lib/freertos/tasks.c.i
 
 __/lib/freertos/tasks.s: __/lib/freertos/tasks.c.s
@@ -2496,6 +2709,7 @@ __/lib/freertos/tasks.s: __/lib/freertos/tasks.c.s
 # target to generate assembly for a file
 __/lib/freertos/tasks.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/tasks.c.s
 .PHONY : __/lib/freertos/tasks.c.s
 
 __/lib/freertos/timers.obj: __/lib/freertos/timers.c.obj
@@ -2504,6 +2718,7 @@ __/lib/freertos/timers.obj: __/lib/freertos/timers.c.obj
 # target to build an object file
 __/lib/freertos/timers.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/timers.c.obj
 .PHONY : __/lib/freertos/timers.c.obj
 
 __/lib/freertos/timers.i: __/lib/freertos/timers.c.i
@@ -2512,6 +2727,7 @@ __/lib/freertos/timers.i: __/lib/freertos/timers.c.i
 # target to preprocess a source file
 __/lib/freertos/timers.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/timers.c.i
 .PHONY : __/lib/freertos/timers.c.i
 
 __/lib/freertos/timers.s: __/lib/freertos/timers.c.s
@@ -2520,31 +2736,35 @@ __/lib/freertos/timers.s: __/lib/freertos/timers.c.s
 # target to generate assembly for a file
 __/lib/freertos/timers.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/__/lib/freertos/timers.c.s
 .PHONY : __/lib/freertos/timers.c.s
 
-testlab6.obj: testlab6.c.obj
-.PHONY : testlab6.obj
+testSemaBin.obj: testSemaBin.c.obj
+.PHONY : testSemaBin.obj
 
 # target to build an object file
-testlab6.c.obj:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testlab6.c.obj
-.PHONY : testlab6.c.obj
+testSemaBin.c.obj:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testSemaBin.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/testSemaBin.c.obj
+.PHONY : testSemaBin.c.obj
 
-testlab6.i: testlab6.c.i
-.PHONY : testlab6.i
+testSemaBin.i: testSemaBin.c.i
+.PHONY : testSemaBin.i
 
 # target to preprocess a source file
-testlab6.c.i:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testlab6.c.i
-.PHONY : testlab6.c.i
+testSemaBin.c.i:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testSemaBin.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/testSemaBin.c.i
+.PHONY : testSemaBin.c.i
 
-testlab6.s: testlab6.c.s
-.PHONY : testlab6.s
+testSemaBin.s: testSemaBin.c.s
+.PHONY : testSemaBin.s
 
 # target to generate assembly for a file
-testlab6.c.s:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testlab6.c.s
-.PHONY : testlab6.c.s
+testSemaBin.c.s:
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/testSemaBin.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/testSemaBin.c.s
+.PHONY : testSemaBin.c.s
 
 unity_config.obj: unity_config.c.obj
 .PHONY : unity_config.obj
@@ -2552,6 +2772,7 @@ unity_config.obj: unity_config.c.obj
 # target to build an object file
 unity_config.c.obj:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/unity_config.c.obj
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/unity_config.c.obj
 .PHONY : unity_config.c.obj
 
 unity_config.i: unity_config.c.i
@@ -2560,6 +2781,7 @@ unity_config.i: unity_config.c.i
 # target to preprocess a source file
 unity_config.c.i:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/unity_config.c.i
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/unity_config.c.i
 .PHONY : unity_config.c.i
 
 unity_config.s: unity_config.c.s
@@ -2568,6 +2790,7 @@ unity_config.s: unity_config.c.s
 # target to generate assembly for a file
 unity_config.c.s:
 	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mytest.dir/build.make test/CMakeFiles/mytest.dir/unity_config.c.s
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/unity_config.c.s
 .PHONY : unity_config.c.s
 
 # Help Target
@@ -2581,6 +2804,7 @@ help:
 	@echo "... test"
 	@echo "... flash_test"
 	@echo "... mytest"
+	@echo "... semTest"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -2835,6 +3059,9 @@ help:
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.s"
@@ -2877,9 +3104,9 @@ help:
 	@echo "... __/lib/freertos/timers.obj"
 	@echo "... __/lib/freertos/timers.i"
 	@echo "... __/lib/freertos/timers.s"
-	@echo "... testlab6.obj"
-	@echo "... testlab6.i"
-	@echo "... testlab6.s"
+	@echo "... testSemaBin.obj"
+	@echo "... testSemaBin.i"
+	@echo "... testSemaBin.s"
 	@echo "... unity_config.obj"
 	@echo "... unity_config.i"
 	@echo "... unity_config.s"

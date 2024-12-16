@@ -595,6 +595,19 @@ mytest/fast:
 .PHONY : mytest/fast
 
 #=============================================================================
+# Target rules for targets named semTest
+
+# Build rule for target.
+semTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 semTest
+.PHONY : semTest
+
+# fast build rule for target.
+semTest/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/semTest.dir/build.make test/CMakeFiles/semTest.dir/build
+.PHONY : semTest/fast
+
+#=============================================================================
 # Target rules for targets named flash_test
 
 # Build rule for target.
@@ -676,6 +689,7 @@ help:
 	@echo "... bs2_default"
 	@echo "... mytest"
 	@echo "... realtime"
+	@echo "... semTest"
 	@echo "... unity"
 	@echo "... lib/unity/src/unity.obj"
 	@echo "... lib/unity/src/unity.i"

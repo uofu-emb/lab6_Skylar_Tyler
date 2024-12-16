@@ -1,4 +1,5 @@
-add_executable(mytest testlab6.c unity_config.c)
+add_executable(mytest testSemaBin.c unity_config.c)
+add_executable(semTest testSemaBin.c unity_config.c)
 
 target_link_libraries(mytest PRIVATE
   pico_stdlib
@@ -6,6 +7,14 @@ target_link_libraries(mytest PRIVATE
   FreeRTOS-Kernel-Heap4
   unity
 )
+
+target_link_libraries(semTest PRIVATE
+  pico_stdlib
+  pico_async_context_freertos
+  FreeRTOS-Kernel-Heap4
+  unity
+)
+
 
 # The CYW43 is the Wifi/Bluetooth module. If the board is set to pico_w, this
 # variable will be set and the wireless libraries added.

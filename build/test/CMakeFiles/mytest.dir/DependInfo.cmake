@@ -261,7 +261,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/stream_buffer.c" "test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj" "gcc" "test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj.d"
   "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/tasks.c" "test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj" "gcc" "test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj.d"
   "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/timers.c" "test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj" "gcc" "test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj.d"
-  "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c" "test/CMakeFiles/mytest.dir/testlab6.c.obj" "gcc" "test/CMakeFiles/mytest.dir/testlab6.c.obj.d"
+  "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c" "test/CMakeFiles/mytest.dir/testSemaBin.c.obj" "gcc" "test/CMakeFiles/mytest.dir/testSemaBin.c.obj.d"
   "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c" "test/CMakeFiles/mytest.dir/unity_config.c.obj" "gcc" "test/CMakeFiles/mytest.dir/unity_config.c.obj.d"
   "/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp" "test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" "gcc" "test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d"
   )

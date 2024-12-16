@@ -69,19 +69,19 @@ include test/CMakeFiles/mytest.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/mytest.dir/flags.make
 
-test/CMakeFiles/mytest.dir/testlab6.c.obj: test/CMakeFiles/mytest.dir/flags.make
-test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c
-test/CMakeFiles/mytest.dir/testlab6.c.obj: test/CMakeFiles/mytest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/mytest.dir/testlab6.c.obj"
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/mytest.dir/testlab6.c.obj -MF CMakeFiles/mytest.dir/testlab6.c.obj.d -o CMakeFiles/mytest.dir/testlab6.c.obj -c /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c
+test/CMakeFiles/mytest.dir/testSemaBin.c.obj: test/CMakeFiles/mytest.dir/flags.make
+test/CMakeFiles/mytest.dir/testSemaBin.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c
+test/CMakeFiles/mytest.dir/testSemaBin.c.obj: test/CMakeFiles/mytest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/mytest.dir/testSemaBin.c.obj"
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/mytest.dir/testSemaBin.c.obj -MF CMakeFiles/mytest.dir/testSemaBin.c.obj.d -o CMakeFiles/mytest.dir/testSemaBin.c.obj -c /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c
 
-test/CMakeFiles/mytest.dir/testlab6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mytest.dir/testlab6.c.i"
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c > CMakeFiles/mytest.dir/testlab6.c.i
+test/CMakeFiles/mytest.dir/testSemaBin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mytest.dir/testSemaBin.c.i"
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c > CMakeFiles/mytest.dir/testSemaBin.c.i
 
-test/CMakeFiles/mytest.dir/testlab6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mytest.dir/testlab6.c.s"
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c -o CMakeFiles/mytest.dir/testlab6.c.s
+test/CMakeFiles/mytest.dir/testSemaBin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mytest.dir/testSemaBin.c.s"
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testSemaBin.c -o CMakeFiles/mytest.dir/testSemaBin.c.s
 
 test/CMakeFiles/mytest.dir/unity_config.c.obj: test/CMakeFiles/mytest.dir/flags.make
 test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c
@@ -1572,7 +1572,7 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_a
 
 # Object files for target mytest
 mytest_OBJECTS = \
-"CMakeFiles/mytest.dir/testlab6.c.obj" \
+"CMakeFiles/mytest.dir/testSemaBin.c.obj" \
 "CMakeFiles/mytest.dir/unity_config.c.obj" \
 "CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -1684,7 +1684,7 @@ mytest_OBJECTS = \
 # External object files for target mytest
 mytest_EXTERNAL_OBJECTS =
 
-test/mytest.elf: test/CMakeFiles/mytest.dir/testlab6.c.obj
+test/mytest.elf: test/CMakeFiles/mytest.dir/testSemaBin.c.obj
 test/mytest.elf: test/CMakeFiles/mytest.dir/unity_config.c.obj
 test/mytest.elf: test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
 test/mytest.elf: test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj

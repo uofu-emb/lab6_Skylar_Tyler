@@ -322,6 +322,7 @@
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/CMakeFiles/edit_cache.dir
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/CMakeFiles/rebuild_cache.dir
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/mytest.dir
+/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/semTest.dir
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/flash_test.dir
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/test.dir
 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/edit_cache.dir
