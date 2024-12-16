@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler
-BuildDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build
+SourceDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
+BuildDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.30.1/bin/cmake" "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.30.1/bin/cmake" "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

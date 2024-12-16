@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler
+CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build
+CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
 
 # Utility rule file for flash.
 
@@ -67,7 +67,7 @@ include src/CMakeFiles/flash.dir/compiler_depend.make
 include src/CMakeFiles/flash.dir/progress.make
 
 src/CMakeFiles/flash: src/realtime.elf
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/src && /Users/tyler/.pico-sdk/picotool/2.0.0/picotool/picotool load -f /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/src/realtime.elf
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src && /Users/tyler/.pico-sdk/picotool/2.0.0/picotool/picotool load -f /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/realtime.elf
 
 flash: src/CMakeFiles/flash
 flash: src/CMakeFiles/flash.dir/build.make
@@ -78,10 +78,10 @@ src/CMakeFiles/flash.dir/build: flash
 .PHONY : src/CMakeFiles/flash.dir/build
 
 src/CMakeFiles/flash.dir/clean:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/src && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean.cmake
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/flash.dir/clean
 
 src/CMakeFiles/flash.dir/depend:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/src /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/src /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/src/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/src /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/flash.dir/depend
 

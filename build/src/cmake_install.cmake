@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/src
+# Install script for directory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

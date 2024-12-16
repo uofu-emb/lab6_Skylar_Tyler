@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="PICO-ninja"
+	BuildStamp="20241213-2040-Experimental"
+	Name="user-UX331UA"
+	Generator="ctest-3.28.6"
+	CompilerName="/home/user/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++"
+	CompilerVersion="13.2.1"
+	OSName="Linux"
+	Hostname="user-UX331UA"
+	OSRelease="6.8.0-49-generic"
+	OSVersion="#49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="7797"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2544.22"
+	>
+	<Testing>
+		<StartDateTime>Dec 13 13:40 MST</StartDateTime>
+		<StartTestTime>1734122439</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 13 13:40 MST</EndDateTime>
+		<EndTestTime>1734122439</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler
+CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build
+CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
 
 # Utility rule file for ExperimentalMemCheck.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalMemCheck.dir/clean:
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/clean
 
 CMakeFiles/ExperimentalMemCheck.dir/depend:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab5/lab_5_Muteeb_Tyler/build/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/depend
 
