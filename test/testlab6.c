@@ -15,6 +15,7 @@
 //#define configUSE_IDLE_HOOK 1
 
 #define DELAY 500;
+const int IVAL = 5000;
 //for semaphore
 static SemaphoreHandle_t semaphore;
 static SemaphoreHandle_t mutex;
@@ -22,6 +23,9 @@ static TaskHandle_t main_handle; // this is the main handle
 static TaskHandle_t t1; // max prio.
 static TaskHandle_t t2; // mid prio.
 static TaskHandle_t t3; // min prio.
+static TaskHandle_t t4;
+static TaskHandle_t t5;
+
 
 void setUp(void) {}
 
@@ -110,17 +114,20 @@ void min_t(void *args){
         vTaskDelete(NULL);
 }
 
-void busy_busy(void)
+void busy_busy(void *args)
 {
-    for (int i = 0; ; i++);
+    gather_runtime_stats("busy_busy", true, false, false);
+    for (int i = 0;i < IVAL; i++);
+    vTaskDelete(NULL);
 }
 
 
-void busy_yield(void)
+void busy_yield(void *args)
 {
-    for (int i = 0; ; i++) {
+    for (int i = 0; i < IVAL; i++) {
         taskYIELD();
     }
+    vTaskDelete(NULL);
 }
 
 void superVisor(void *args){
@@ -166,11 +173,11 @@ int main (void)
 
 
     //ACTIVITY 2 P1
- 
+
     xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
     xTaskCreate(busy_busy, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
     //gather_runtime_stats("test_same_priority_busy_busy", true, false, false);
-    gather_runtime_stats("main", true, false, false);
+    //gather_runtime_stats("main", true, false, false);
 
 /*
 
