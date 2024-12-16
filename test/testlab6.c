@@ -94,8 +94,8 @@ void superVisor(void *args){
     printf("Supervisor initialized\n");
     semaphore = xSemaphoreCreateBinary();
     mutex = xSemaphoreCreateMutex();
-    //UNITY_BEGIN();
-    //UNITY_END();
+    UNITY_BEGIN();
+    UNITY_END();
     vSemaphoreDelete(semaphore);
     vSemaphoreDelete(mutex);
     vTaskDelete(NULL);
