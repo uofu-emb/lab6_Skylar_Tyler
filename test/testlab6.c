@@ -36,6 +36,50 @@ void tearDown(void) {}
 4. have the lower priority thread acquire the semphore first.
 5. Predict the behavior of the system.
  */
+void gather_runtime_stats(const char *test_name, bool equal, bool task1Larger, bool skip) {
+    UBaseType_t numTasks = uxTaskGetNumberOfTasks();
+    UBaseType_t arraySize = 20;
+    TaskStatus_t xTaskDetails[arraySize];
+    UBaseType_t uxArraySize = uxTaskGetSystemState(xTaskDetails, arraySize, NULL);
+
+    uint32_t variance = 5;
+
+    uint32_t task1Runtime = 0;
+    uint32_t task2Runtime = 0;
+
+
+    for(int i = 0; i < uxArraySize; i++)
+    {
+        if( strcmp(xTaskDetails[i].pcTaskName, "Task1") == 0 )
+        {
+            task1Runtime = xTaskDetails[i].ulRunTimeCounter;
+        }
+
+        if( strcmp( xTaskDetails[i].pcTaskName, "Task2") == 0 )
+        {
+            task2Runtime = xTaskDetails[i].ulRunTimeCounter;
+        }
+    }
+
+    if( skip == true )
+    {
+        bool testPassed;
+        if( equal == true )
+        {
+            TEST_ASSERT_EQUAL(task1Runtime, task2Runtime);
+            TEST_ASSERT_INT_WITHIN(150, task1Runtime, task2Runtime);
+        }
+        else if( task1Larger == true )
+        {
+            TEST_ASSERT_TRUE( task1Runtime > task2Runtime );
+        }
+        else
+        {
+            TEST_ASSERT_TRUE( task2Runtime > task1Runtime );
+        }
+    }
+}
+
 
 void max_t(void *args){
         printf("Thread1 running\n");
@@ -91,6 +135,10 @@ void superVisor(void *args){
     vTaskDelete(NULL);
 }
 
+
+
+
+
 int main (void)
 {
     printf("Start tests\n");
@@ -108,34 +156,35 @@ int main (void)
     xTaskCreate(superVisor, "superVisor",
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
 
-    xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 3UL, &t1);
-    xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
-    xTaskCreate(min_t, "t3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t3);
+   // xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 3UL, &t1);
+   // xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
+   // xTaskCreate(min_t, "t3", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t3);
 
+   // gather_runtime_stats("main", true, false, false);
 
 
 
 
     //ACTIVITY 2 P1
-
-    TickType_t start_ticks = xTaskGetTickCount();
+ 
     xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
     xTaskCreate(busy_busy, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
-    printf("timing code here")
+    //gather_runtime_stats("test_same_priority_busy_busy", true, false, false);
+    gather_runtime_stats("main", true, false, false);
 
-    TickType_t end_ticks = xTaskGetTickCount();
-
-    TickType_t elapsed_ticks = end_ticks - start_ticks;
-    printf(elapsed_ticks);
-
+/*
 
     //P2
     xTaskCreate(busy_yield, "t6", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t6);
     xTaskCreate(busy_yield, "t7", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t7);
+    gather_runtime_stats("test_same_priority_yield_yield", true, false, false);
+
+
 
     //P3
     xTaskCreate(busy_yield, "t8", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t8);
     xTaskCreate(busy_busy, "t9", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t9);
+    gather_runtime_stats("test_same_priority_yield_busy", false, true, false);
 
 
 
@@ -143,12 +192,13 @@ int main (void)
 
     xTaskCreate(busy_busy, "t10", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t10);
     xTaskCreate(busy_busy, "t11", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t11);
-    printf("timing code here")
+    gather_runtime_stats("test_diff_priority_busy_busy", false, true, false);
 
     //P2
     xTaskCreate(busy_yield, "t12", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t12);
     xTaskCreate(busy_yield, "t13", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t13);
-
+    gather_runtime_stats("test_diff_priority_yield_yield", false, true, false);
+ */
 
     vTaskStartScheduler();
     //if things go wrong here something major has gone wrong
