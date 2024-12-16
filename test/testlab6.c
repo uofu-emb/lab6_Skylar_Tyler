@@ -1,5 +1,6 @@
 #include <pico/sem.h>
 #include <pico/time.h>
+#include <stdint.h>
 #include <unity.h>
 #include "FreeRTOSConfig_examples_common.h"
 #include "portmacro.h"
@@ -13,8 +14,13 @@
 #include <semphr.h>
 #pragma once
 //#define configUSE_IDLE_HOOK 1
+#define configGENERATE_RUN_TIME_STATS 1
 
 #define DELAY 500;
+//use var for timing
+static uint32_t time1 = 0;
+static uint32_t time2 = 0;
+
 //for semaphore
 static SemaphoreHandle_t semaphore;
 static SemaphoreHandle_t mutex;
@@ -46,6 +52,10 @@ void tearDown(void) {}
 4. have the lower priority thread acquire the semphore first.
 5. Predict the behavior of the system.
  */
+ void test1(void){
+     printf("test is done here");
+     TEST_ASSERT_EQUAL(time1,time2);
+ }
 
 void max_t(void *args){
         printf("Thread1 running\n");
@@ -54,19 +64,10 @@ void max_t(void *args){
 }
 
 void mid_t(void *args){
-        //if (xSemaphoreTake(semaphore, 100) == pdTRUE){
         xSemaphoreTake(mutex, 100);
         printf("Thread2 running\n");
         vTaskDelay(10);
         xSemaphoreGive(mutex);
-        //}
-        //else{
-            //printf("dum dum give me gum gum\n");
-        //}
-
-        //}
-        //else{
-            //}
             vTaskDelete(NULL);
 }
 
@@ -78,34 +79,68 @@ void min_t(void *args){
 
 void busy_busy(void *args)
 {
+    uint32_t start = xTaskGetTickCount();
+    printf("busy busy is running\n");
     for (int i = 0; ; i++);
+    uint32_t stop = xTaskGetTickCount();
+    time1 = start - stop;
+    printf("busy busy is done\n");
+    vTaskDelete(NULL);
+
+}
+void busy_busy_tim2(void *args)
+{
+    uint32_t start = xTaskGetTickCount();
+    printf("busy busy is running\n");
+    for (int i = 0; ; i++);
+    uint32_t stop = xTaskGetTickCount();
+    time2 = start - stop;
+    vTaskDelete(NULL);
+
 }
 
 
-void busy_yield(void *args)
+void busy_yield(void *args,uint32_t tim)
 {
+    printf("busy yeild is running\n");
+
     for (int i = 0; ; i++) {
         taskYIELD();
     }
+    vTaskDelete(NULL);
+}
+void busy_yield_tim2(void *args,uint32_t tim)
+{
+    printf("busy yeild is running\n");
+
+    for (int i = 0; ; i++) {
+        taskYIELD();
+    }
+    vTaskDelete(NULL);
 }
 
 void superVisor(void *args){
-    //while(1){
     printf("Supervisor initialized\n");
     semaphore = xSemaphoreCreateBinary();
     mutex = xSemaphoreCreateMutex();
-    UNITY_BEGIN();
-    UNITY_END();
     vSemaphoreDelete(semaphore);
     vSemaphoreDelete(mutex);
     vTaskDelete(NULL);
 }
+void testSuperVisor1i(void *args){
+    xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
+    xTaskCreate(busy_busy_tim2, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
+    test1();
+}
+
+
 
 int main (void)
 {
     printf("Start tests\n");
 
     stdio_init_all();
+    UNITY_BEGIN();
 
     semaphore = xSemaphoreCreateBinary();
     mutex = xSemaphoreCreateMutex();
@@ -129,36 +164,35 @@ int main (void)
     //ACTIVITY 2 P1
 
     //TickType_t start_ticks = xTaskGetTickCount();
-    xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
-    xTaskCreate(busy_busy, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
-    printf("timing code here\n");
 
-    //TickType_t end_ticks = xTaskGetTickCount();
-
-    //TickType_t elapsed_ticks = end_ticks - start_ticks;
-    //*total_ticks = elapsed_ticks;
-    //printf(total_ticks);
+    //xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, time1, tskIDLE_PRIORITY + 1UL, &t4);
+    //xTaskCreate(busy_busy1, "t5", configMINIMAL_STACK_SIZE, time2, tskIDLE_PRIORITY + 1UL, &t5);
+    //printf("timing code here\n");
 
 
-    //P2
-    xTaskCreate(busy_yield, "t6", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t6);
-    xTaskCreate(busy_yield, "t7", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t7);
+    //prediction  they will share an equal amount of time waiting around.
+    xTaskCreate(testSuperVisor1i, "testVisor",
+                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
 
-    //P3
-    xTaskCreate(busy_yield, "t8", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t8);
-    xTaskCreate(busy_busy, "t9", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t9);
+    // //P2
+    // xTaskCreate(busy_yield, "t6", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t6);
+    // xTaskCreate(busy_yield, "t7", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t7);
+
+    // //P3
+    // xTaskCreate(busy_yield, "t8", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t8);
+    // xTaskCreate(busy_busy, "t9", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t9);
 
 
 
-    //Same thing but different priorities.
+    // //Same thing but different priorities.
 
-    xTaskCreate(busy_busy, "t10", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t10);
-    xTaskCreate(busy_busy, "t11", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t11);
-    printf("timing code here\n");
+    // xTaskCreate(busy_busy, "t10", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t10);
+    // xTaskCreate(busy_busy, "t11", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t11);
+    // printf("timing code here\n");
 
-    //P2
-    xTaskCreate(busy_yield, "t12", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t12);
-    xTaskCreate(busy_yield, "t13", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t13);
+    // //P2
+    // xTaskCreate(busy_yield, "t12", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t12);
+    // xTaskCreate(busy_yield, "t13", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t13);
 
 
     vTaskStartScheduler();
