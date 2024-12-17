@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 

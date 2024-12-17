@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040
+# Install script for directory: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
+CMAKE_SOURCE_DIR = /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
+CMAKE_BINARY_DIR = /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build
 
 # Utility rule file for flash_test.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/flash_test.dir/compiler_depend.make
 include test/CMakeFiles/flash_test.dir/progress.make
 
 test/CMakeFiles/flash_test: test/mytest.elf
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && picotool load -f /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/mytest.elf
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test && picotool load -f /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test/mytest.elf
 
 flash_test: test/CMakeFiles/flash_test
 flash_test: test/CMakeFiles/flash_test.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/flash_test.dir/build: flash_test
 .PHONY : test/CMakeFiles/flash_test.dir/build
 
 test/CMakeFiles/flash_test.dir/clean:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test && $(CMAKE_COMMAND) -P CMakeFiles/flash_test.dir/cmake_clean.cmake
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test && $(CMAKE_COMMAND) -P CMakeFiles/flash_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/flash_test.dir/clean
 
 test/CMakeFiles/flash_test.dir/depend:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/CMakeFiles/flash_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test/CMakeFiles/flash_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/flash_test.dir/depend
 

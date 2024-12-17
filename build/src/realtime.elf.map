@@ -188,7 +188,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_line    0x00000000      0x3e7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_str     0x00000000      0x3be CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_str     0x00000000      0x3d1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .ARM.attributes
@@ -275,7 +275,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x5c7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_line    0x00000000     0x1c83 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x00000000      0xc85 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x00000000      0xc98 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_frame   0x00000000      0x330 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .ARM.attributes
@@ -294,7 +294,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
  .debug_line    0x00000000      0x256 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
- .debug_str     0x00000000      0x209 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
+ .debug_str     0x00000000      0x21c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj
  .ARM.attributes
@@ -419,8 +419,8 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
  .debug_rnglists
                 0x00000000       0xe2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
- .debug_line    0x00000000      0xcc1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
- .debug_str     0x00000000      0x57a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
+ .debug_line    0x00000000      0xcd4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
+ .debug_str     0x00000000      0x58d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj
  .ARM.attributes
@@ -475,7 +475,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
  .debug_line    0x00000000      0x409 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x00000000      0x2db CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x00000000      0x2ee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
  .debug_frame   0x00000000       0x50 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj
  .ARM.attributes
@@ -547,7 +547,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x61 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
  .debug_line    0x00000000      0x4ee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
- .debug_str     0x00000000      0x3fc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
+ .debug_str     0x00000000      0x40f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj
  .ARM.attributes
@@ -645,7 +645,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x37 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
  .debug_line    0x00000000      0x4a3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
- .debug_str     0x00000000      0x375 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
+ .debug_str     0x00000000      0x388 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
  .debug_frame   0x00000000       0xd4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj
  .ARM.attributes
@@ -687,7 +687,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x4a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
  .debug_line    0x00000000     0x13cf CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
- .debug_str     0x00000000      0x3f9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00000000      0x40c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
  .debug_frame   0x00000000      0x178 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj
  .ARM.attributes
@@ -719,8 +719,8 @@ Discarded input sections
                 0x00000000       0x58 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
  .debug_rnglists
                 0x00000000      0x118 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
- .debug_line    0x00000000      0xdb0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
- .debug_str     0x00000000      0x4d7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
+ .debug_line    0x00000000      0xdc3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
+ .debug_str     0x00000000      0x4ea CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
  .debug_frame   0x00000000       0xec CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj
  .ARM.attributes
@@ -755,7 +755,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x259 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_line    0x00000000      0xf91 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_str     0x00000000      0xc05 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00000000      0xc18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_frame   0x00000000       0xec CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj
  .ARM.attributes
@@ -812,7 +812,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x34 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_line    0x00000000      0x313 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
- .debug_str     0x00000000      0x364 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
+ .debug_str     0x00000000      0x377 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_frame   0x00000000       0x30 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .ARM.attributes
@@ -849,7 +849,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xdf CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_line    0x00000000      0x7a4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_str     0x00000000      0x3a5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00000000      0x3b8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_frame   0x00000000       0xc0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .ARM.attributes
@@ -883,12 +883,12 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_line    0x00000000       0xa6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_line_str
-                0x00000000       0x8a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
+                0x00000000       0x9d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_info    0x00000000       0x23 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_abbrev  0x00000000       0x12 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
- .debug_str     0x00000000       0x98 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
+ .debug_str     0x00000000       0xab CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_divider/divider.S.obj
  .ARM.attributes
@@ -918,7 +918,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .debug_line    0x00000000      0x318 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
- .debug_str     0x00000000      0x26f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+ .debug_str     0x00000000      0x282 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .ARM.attributes
@@ -946,7 +946,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .debug_line    0x00000000       0x6c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+ .debug_str     0x00000000      0x1b9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
@@ -958,7 +958,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .debug_line    0x00000000       0x6f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
- .debug_str     0x00000000      0x1a9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+ .debug_str     0x00000000      0x1bc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
@@ -1129,7 +1129,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x5f3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
  .debug_line    0x00000000     0x2d2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
- .debug_str     0x00000000      0x52b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
+ .debug_str     0x00000000      0x53e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
  .debug_frame   0x00000000      0x44c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj
  .ARM.attributes
@@ -1144,12 +1144,12 @@ Discarded input sections
                 0x00000000       0x32 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_line    0x00000000       0x61 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_line_str
-                0x00000000       0x95 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000000       0xa8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_info    0x00000000       0x24 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_abbrev  0x00000000       0x14 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x00000000       0xa3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00000000       0xb6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
                 0x00000000       0x22 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .text          0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
@@ -1307,7 +1307,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x405 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
  .debug_line    0x00000000     0x259a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
- .debug_str     0x00000000      0x53e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
+ .debug_str     0x00000000      0x551 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
  .debug_frame   0x00000000      0x390 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
@@ -1430,7 +1430,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x18d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
  .debug_line    0x00000000     0x1672 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
- .debug_str     0x00000000      0x638 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
+ .debug_str     0x00000000      0x64b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
  .debug_frame   0x00000000      0x370 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj
  .ARM.attributes
@@ -1453,7 +1453,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x31 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .debug_line    0x00000000      0x27b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
- .debug_str     0x00000000      0x38f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+ .debug_str     0x00000000      0x3a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .ARM.attributes
@@ -1597,7 +1597,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_line    0x00000000      0x587 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_str     0x00000000      0xe44 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_str     0x00000000      0xe57 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_frame   0x00000000       0xbc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .ARM.attributes
@@ -1655,7 +1655,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x13d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_line    0x00000000     0x119e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_str     0x00000000      0xe23 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_str     0x00000000      0xe36 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_frame   0x00000000      0x118 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .ARM.attributes
@@ -1690,7 +1690,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_line    0x00000000      0x3b1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_str     0x00000000      0xfac CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_str     0x00000000      0xfbf CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_frame   0x00000000       0x48 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .ARM.attributes
@@ -1771,7 +1771,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x44a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_line    0x00000000     0x2020 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_str     0x00000000     0x1161 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_str     0x00000000     0x1174 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_frame   0x00000000      0x200 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .ARM.attributes
@@ -1814,7 +1814,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xec CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_line    0x00000000      0xcb7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_str     0x00000000      0xa00 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_str     0x00000000      0xa13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_frame   0x00000000      0x128 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .ARM.attributes
@@ -1941,7 +1941,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x5f5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_line    0x00000000     0x28f5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_str     0x00000000     0x1a84 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_str     0x00000000     0x1a97 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_frame   0x00000000      0x3e8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj
  .ARM.attributes
@@ -1976,7 +1976,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x8e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_line    0x00000000      0x6d8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_str     0x00000000      0x696 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_str     0x00000000      0x6a9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_frame   0x00000000       0xc0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj
  .ARM.attributes
@@ -1989,7 +1989,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
  .debug_line    0x00000000       0x6c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
+ .debug_str     0x00000000      0x1b9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -2051,7 +2051,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x1df CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_line    0x00000000     0x1123 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_str     0x00000000     0x16e8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_str     0x00000000     0x16fb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_frame   0x00000000      0x240 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .ARM.attributes
@@ -2064,7 +2064,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .debug_line    0x00000000       0x68 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
- .debug_str     0x00000000      0x1a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+ .debug_str     0x00000000      0x1b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -2076,7 +2076,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .debug_line    0x00000000       0x6b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
- .debug_str     0x00000000      0x1a5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+ .debug_str     0x00000000      0x1b8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -2088,7 +2088,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_line    0x00000000       0x68 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_str     0x00000000      0x1a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_str     0x00000000      0x1b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -2100,7 +2100,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
  .debug_line    0x00000000       0x6a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
- .debug_str     0x00000000      0x1a4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
+ .debug_str     0x00000000      0x1b7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -2112,7 +2112,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
  .debug_line    0x00000000       0x68 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
- .debug_str     0x00000000      0x1a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
+ .debug_str     0x00000000      0x1b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -2124,7 +2124,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .debug_line    0x00000000       0x6e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- .debug_str     0x00000000      0x1a8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ .debug_str     0x00000000      0x1bb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -2136,7 +2136,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
  .debug_line    0x00000000       0x68 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
- .debug_str     0x00000000      0x1a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
+ .debug_str     0x00000000      0x1b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -2148,7 +2148,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .debug_line    0x00000000       0x6e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
- .debug_str     0x00000000      0x1a8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+ .debug_str     0x00000000      0x1bb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -2192,7 +2192,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x10e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_line    0x00000000      0xb91 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_str     0x00000000      0xcdb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_str     0x00000000      0xcee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_frame   0x00000000      0x174 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .ARM.attributes
@@ -2205,7 +2205,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
  .debug_line    0x00000000       0x6c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
+ .debug_str     0x00000000      0x1b9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj
@@ -2255,7 +2255,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x16f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
  .debug_line    0x00000000      0xd6f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
- .debug_str     0x00000000      0xb0c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
+ .debug_str     0x00000000      0xb1f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
  .debug_frame   0x00000000      0x1cc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj
  .ARM.attributes
@@ -2310,7 +2310,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x3e4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_line    0x00000000     0x1ac9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_str     0x00000000      0x630 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_str     0x00000000      0x643 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_frame   0x00000000      0x220 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
@@ -2327,7 +2327,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_line    0x00000000      0x137 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .debug_str     0x00000000      0x1f9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+ .debug_str     0x00000000      0x20c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
@@ -2426,8 +2426,8 @@ Discarded input sections
                 0x00000000       0xa0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
  .debug_rnglists
                 0x00000000      0x38c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
- .debug_line    0x00000000     0x171b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
- .debug_str     0x00000000      0xf6b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+ .debug_line    0x00000000     0x1741 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+ .debug_str     0x00000000      0xf7e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
  .debug_frame   0x00000000      0x22c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj
  .ARM.attributes
@@ -2460,7 +2460,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x134 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
  .debug_line    0x00000000      0x885 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
- .debug_str     0x00000000      0x60d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
+ .debug_str     0x00000000      0x620 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
  .debug_frame   0x00000000       0xe0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj
  .ARM.attributes
@@ -2522,8 +2522,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x26 CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
- .debug_line    0x00000000       0x6d CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
- .debug_str     0x00000000      0x1ac CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
+ .debug_line    0x00000000       0x80 CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
+ .debug_str     0x00000000      0x1d2 CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/__/lib/freertos/croutine.c.obj
@@ -2683,8 +2683,8 @@ Discarded input sections
                 0x00000000       0xc0 CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
  .debug_rnglists
                 0x00000000      0x1d7 CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
- .debug_line    0x00000000     0x1635 CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
- .debug_str     0x00000000      0xa1b CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
+ .debug_line    0x00000000     0x166e CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
+ .debug_str     0x00000000      0xa41 CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
  .debug_frame   0x00000000      0x25c CMakeFiles/realtime.dir/__/lib/freertos/stream_buffer.c.obj
  .ARM.attributes
@@ -2897,7 +2897,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x7f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
  .debug_line    0x00000000      0x5ac CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
- .debug_str     0x00000000      0x4b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
+ .debug_str     0x00000000      0x4c8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
  .debug_frame   0x00000000       0x84 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj
  .ARM.attributes
@@ -2956,7 +2956,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x20e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .debug_line    0x00000000      0xe5e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
- .debug_str     0x00000000      0xe2d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+ .debug_str     0x00000000      0xe40 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .debug_frame   0x00000000      0x24c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .ARM.attributes
@@ -2965,7 +2965,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
  .bss           0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
- .debug_str     0x00000000      0x11c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+ .debug_str     0x00000000      0x12f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
@@ -2989,7 +2989,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
  .debug_line    0x00000000      0x610 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
- .debug_str     0x00000000      0xada CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+ .debug_str     0x00000000      0xaed CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
  .debug_frame   0x00000000       0x60 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
  .ARM.attributes
@@ -2998,7 +2998,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
  .bss           0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
- .debug_str     0x00000000      0x120 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+ .debug_str     0x00000000      0x133 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
@@ -3055,8 +3055,8 @@ Discarded input sections
                 0x00000000       0x98 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .debug_rnglists
                 0x00000000      0x8f1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_line    0x00000000     0x3729 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_str     0x00000000     0x1df9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_line    0x00000000     0x373c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_str     0x00000000     0x1e0c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .debug_frame   0x00000000      0x238 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .ARM.attributes
@@ -3184,7 +3184,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0xdb7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .debug_line    0x00000000     0x501e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
- .debug_str     0x00000000     0x14b8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .debug_str     0x00000000     0x14cb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .debug_frame   0x00000000      0x538 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .ARM.attributes
@@ -3205,7 +3205,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
  .debug_line    0x00000000       0xa6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
- .debug_str     0x00000000      0x1d7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
+ .debug_str     0x00000000      0x1ea CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj
  .ARM.attributes
@@ -3218,7 +3218,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
  .debug_line    0x00000000       0x63 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
- .debug_str     0x00000000      0x1a8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
+ .debug_str     0x00000000      0x1bb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
@@ -3294,7 +3294,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x419 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .debug_line    0x00000000     0x219b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- .debug_str     0x00000000     0x1162 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ .debug_str     0x00000000     0x1175 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .debug_frame   0x00000000      0x314 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .ARM.attributes
@@ -3333,7 +3333,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x30b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
  .debug_line    0x00000000     0x11d0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
- .debug_str     0x00000000      0xb5d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+ .debug_str     0x00000000      0xb70 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
  .debug_frame   0x00000000       0xa8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
  .ARM.attributes
@@ -3388,7 +3388,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x2b4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
  .debug_line    0x00000000     0x1203 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
- .debug_str     0x00000000      0xbe1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+ .debug_str     0x00000000      0xbf4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
  .debug_frame   0x00000000      0x1c4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
  .ARM.attributes
@@ -3454,7 +3454,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x438 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
  .debug_line    0x00000000     0x197d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
- .debug_str     0x00000000     0x1069 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_str     0x00000000     0x107c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
  .debug_frame   0x00000000      0x2bc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
@@ -3504,7 +3504,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xd6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
  .debug_line    0x00000000      0x6ee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
- .debug_str     0x00000000      0x602 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_str     0x00000000      0x615 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
  .debug_frame   0x00000000      0x134 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
  .ARM.attributes
@@ -3573,7 +3573,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x226 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .debug_line    0x00000000      0xefc CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .debug_str     0x00000000      0xe59 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .debug_str     0x00000000      0xe6c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .debug_frame   0x00000000      0x228 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .ARM.attributes
@@ -3631,15 +3631,15 @@ Discarded input sections
                 0x00000000       0xa8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .debug_rnglists
                 0x00000000      0x2a4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_line    0x00000000     0x15a0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_str     0x00000000     0x116c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_line    0x00000000     0x15b3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_str     0x00000000     0x117f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .comment       0x00000000       0x45 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .debug_frame   0x00000000      0x21c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .text          0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
- .data          0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
- .bss           0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
+ .text          0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
+ .data          0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
+ .bss           0x00000000        0x0 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
  .data          0x00000000        0x0 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -4423,7 +4423,7 @@ LOAD /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
+ .boot2         0x10000000      0x100 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -5266,7 +5266,7 @@ LOAD CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hard
 LOAD CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj
 LOAD CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 LOAD CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-LOAD /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
+LOAD /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
 LOAD /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -5375,7 +5375,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000710       0x2c CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
  .ARM.attributes
-                0x0000073c       0x22 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//cciwibcc.o
+                0x0000073c       0x22 /var/folders/cn/l2m7nyjd7ws0f_2zs76zqnjm0000gn/T//ccm3hE4s.o
  .ARM.attributes
                 0x0000075e       0x1e /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -5678,94 +5678,94 @@ LOAD linker stubs
  .debug_rnglists
                 0x00003412      0x1f3 CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
 
-.debug_line     0x00000000    0x203c7
- .debug_line    0x00000000       0x9d CMakeFiles/realtime.dir/main.c.obj
- .debug_line    0x0000009d      0x27e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x0000031b      0x91c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00000c37      0x4c2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000010f9      0x3ac CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x000014a5     0x16fe CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002ba3      0x2d7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00002e7a     0x16e3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000455d     0x324e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
- .debug_line    0x000077ab     0x1d03 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000094ae     0x1deb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000b299      0x4ee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000b787      0x336 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x0000babd      0x34f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000be0c      0x30d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000c119      0x530 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x0000c649      0x54f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x0000cb98      0x107 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000cc9f      0x3d1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000d070      0x2a9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x0000d319      0x3f3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x0000d70c      0x556 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x0000dc62       0x5d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x0000dcbf      0x3a8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x0000e067      0x412 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x0000e479      0x4fa CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_line    0x0000e973       0x94 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000ea07      0x1eb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x0000ebf2     0x1b81 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00010773       0xa4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00010817      0x85d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x00011074     0x14b1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00012525      0x659 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00012b7e      0xae8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00013666     0x1555 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_line    0x00014bbb      0x837 CMakeFiles/realtime.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
- .debug_line    0x000153f2     0x1507 CMakeFiles/realtime.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
- .debug_line    0x000168f9      0xabf CMakeFiles/realtime.dir/__/lib/freertos/event_groups.c.obj
- .debug_line    0x000173b8      0x3fd CMakeFiles/realtime.dir/__/lib/freertos/list.c.obj
- .debug_line    0x000177b5     0x299a CMakeFiles/realtime.dir/__/lib/freertos/queue.c.obj
- .debug_line    0x0001a14f     0x52fe CMakeFiles/realtime.dir/__/lib/freertos/tasks.c.obj
- .debug_line    0x0001f44d      0xf7a CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
+.debug_line     0x00000000    0x2058f
+ .debug_line    0x00000000       0xb0 CMakeFiles/realtime.dir/main.c.obj
+ .debug_line    0x000000b0      0x27e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x0000032e      0x91c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00000c4a      0x4c2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000110c      0x3ac CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x000014b8     0x16fe CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002bb6      0x2d7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00002e8d     0x16f6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004583     0x3261 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
+ .debug_line    0x000077e4     0x1d03 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000094e7     0x1deb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000b2d2      0x4ee CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000b7c0      0x336 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x0000baf6      0x34f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000be45      0x30d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000c152      0x530 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x0000c682      0x54f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x0000cbd1      0x107 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000ccd8      0x3d1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000d0a9      0x2a9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x0000d352      0x3f3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x0000d745      0x556 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x0000dc9b       0x5d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0000dcf8      0x3a8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x0000e0a0      0x412 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x0000e4b2      0x4fa CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_line    0x0000e9ac       0x94 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000ea40      0x1eb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x0000ec2b     0x1b81 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000107ac       0xa4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00010850      0x85d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x000110ad     0x14b1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0001255e      0x659 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00012bb7      0xae8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001369f     0x1555 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_line    0x00014bf4      0x870 CMakeFiles/realtime.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
+ .debug_line    0x00015464     0x1540 CMakeFiles/realtime.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+ .debug_line    0x000169a4      0xaf8 CMakeFiles/realtime.dir/__/lib/freertos/event_groups.c.obj
+ .debug_line    0x0001749c      0x436 CMakeFiles/realtime.dir/__/lib/freertos/list.c.obj
+ .debug_line    0x000178d2     0x29d3 CMakeFiles/realtime.dir/__/lib/freertos/queue.c.obj
+ .debug_line    0x0001a2a5     0x5337 CMakeFiles/realtime.dir/__/lib/freertos/tasks.c.obj
+ .debug_line    0x0001f5dc      0xfb3 CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
 
-.debug_str      0x00000000     0x6c5f
- .debug_str     0x00000000     0x6c5f CMakeFiles/realtime.dir/main.c.obj
-                                0x1c3 (size before relaxing)
- .debug_str     0x00006c5f      0x210 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_str     0x00006c5f      0x393 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
- .debug_str     0x00006c5f      0x33c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x00006c5f      0x24f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_str     0x00006c5f      0xa73 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x00006c5f      0x21b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x00006c5f      0x807 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
- .debug_str     0x00006c5f     0x11a4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
- .debug_str     0x00006c5f      0x9f6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x00006c5f      0x98d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x00006c5f      0x46e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x00006c5f      0x29d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_str     0x00006c5f      0x252 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x00006c5f      0x2a2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x00006c5f      0x796 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_str     0x00006c5f      0x4aa CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_str     0x00006c5f       0x9a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x00006c5f      0x2fb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x00006c5f       0x9d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_str     0x00006c5f       0x9f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_str     0x00006c5f      0x2eb CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_str     0x00006c5f       0xa5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_str     0x00006c5f       0x9d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_str     0x00006c5f      0x2b0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_str     0x00006c5f      0x414 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_str     0x00006c5f       0x9a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x00006c5f      0x411 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_str     0x00006c5f      0x4e5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x00006c5f       0x8e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_str     0x00006c5f      0x780 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_str     0x00006c5f      0xae4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_str     0x00006c5f      0x27b CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_str     0x00006c5f      0x6c7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj
- .debug_str     0x00006c5f      0xc9f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_str     0x00006c5f      0x567 CMakeFiles/realtime.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
- .debug_str     0x00006c5f      0xedd CMakeFiles/realtime.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
- .debug_str     0x00006c5f      0x707 CMakeFiles/realtime.dir/__/lib/freertos/event_groups.c.obj
- .debug_str     0x00006c5f      0x2fb CMakeFiles/realtime.dir/__/lib/freertos/list.c.obj
- .debug_str     0x00006c5f      0xce2 CMakeFiles/realtime.dir/__/lib/freertos/queue.c.obj
- .debug_str     0x00006c5f     0x1426 CMakeFiles/realtime.dir/__/lib/freertos/tasks.c.obj
- .debug_str     0x00006c5f      0xa3f CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
+.debug_str      0x00000000     0x6d0a
+ .debug_str     0x00000000     0x6d0a CMakeFiles/realtime.dir/main.c.obj
+                                0x1e9 (size before relaxing)
+ .debug_str     0x00006d0a      0x223 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_str     0x00006d0a      0x3a6 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj
+ .debug_str     0x00006d0a      0x34f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00006d0a      0x262 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_str     0x00006d0a      0xa86 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00006d0a      0x22e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x00006d0a      0x81a CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00006d0a     0x11b7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj
+ .debug_str     0x00006d0a      0xa09 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00006d0a      0x9a0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00006d0a      0x481 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00006d0a      0x2b0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_str     0x00006d0a      0x265 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00006d0a      0x2b5 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00006d0a      0x7a9 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_str     0x00006d0a      0x4bd CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_str     0x00006d0a       0xad CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00006d0a      0x30e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00006d0a       0xb0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_str     0x00006d0a       0xb2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_str     0x00006d0a      0x2fe CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_str     0x00006d0a       0xb8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x00006d0a       0xb0 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_str     0x00006d0a      0x2c3 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_str     0x00006d0a      0x427 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_str     0x00006d0a       0xad CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00006d0a      0x424 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_str     0x00006d0a      0x4f8 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00006d0a       0xa1 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_str     0x00006d0a      0x793 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_str     0x00006d0a      0xaf7 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x00006d0a      0x28e CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_str     0x00006d0a      0x6da CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_str     0x00006d0a      0xcb2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_str     0x00006d0a      0x58d CMakeFiles/realtime.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj
+ .debug_str     0x00006d0a      0xf03 CMakeFiles/realtime.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+ .debug_str     0x00006d0a      0x72d CMakeFiles/realtime.dir/__/lib/freertos/event_groups.c.obj
+ .debug_str     0x00006d0a      0x321 CMakeFiles/realtime.dir/__/lib/freertos/list.c.obj
+ .debug_str     0x00006d0a      0xd08 CMakeFiles/realtime.dir/__/lib/freertos/queue.c.obj
+ .debug_str     0x00006d0a     0x144c CMakeFiles/realtime.dir/__/lib/freertos/tasks.c.obj
+ .debug_str     0x00006d0a      0xa65 CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
 
 .debug_frame    0x00000000     0x2c84
  .debug_frame   0x00000000       0x40 CMakeFiles/realtime.dir/main.c.obj
@@ -5872,21 +5872,21 @@ LOAD linker stubs
                 0x00016659      0xf89 CMakeFiles/realtime.dir/__/lib/freertos/timers.c.obj
 
 .debug_line_str
-                0x00000000      0x2fa
+                0x00000000      0x30d
  .debug_line_str
-                0x00000000      0x2fa CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                                 0x8c (size before relaxing)
+                0x00000000      0x30d CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                                 0x9f (size before relaxing)
  .debug_line_str
-                0x000002fa       0x8f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x0000030d       0xa2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_line_str
-                0x000002fa       0x91 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000030d       0xa4 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_line_str
-                0x000002fa       0x97 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000030d       0xaa CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .debug_line_str
-                0x000002fa       0x8f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x0000030d       0xa2 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_line_str
-                0x000002fa       0x8c CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000030d       0x9f CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_line_str
-                0x000002fa       0x80 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
+                0x0000030d       0x93 CMakeFiles/realtime.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_line_str
-                0x000002fa       0xd2 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000030d       0xd2 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)

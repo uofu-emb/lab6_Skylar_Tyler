@@ -68,10 +68,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/firmware/w43439A0_7_95_49_00_combined.h \
@@ -146,10 +146,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_lwip.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43.h \
@@ -218,10 +218,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_config.h \
@@ -286,10 +286,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/audio/audio_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -330,10 +330,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -408,10 +408,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -452,10 +452,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -496,10 +496,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/hid/hid_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -540,10 +540,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/midi/midi_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -584,10 +584,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/msc/msc_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -628,10 +628,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ecm_rndis_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -672,10 +672,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/net/ncm_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -716,10 +716,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -760,10 +760,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.h \
@@ -837,10 +837,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/video/video_device.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_compiler.h \
@@ -881,10 +881,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_common.h \
@@ -955,10 +955,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/commo
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -1037,10 +1037,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/devic
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd_control.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -1118,10 +1118,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/devic
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_common.h \
@@ -1206,10 +1206,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/porta
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_common.h \
@@ -1286,10 +1286,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/porta
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -1367,10 +1367,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1408,10 +1408,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/critical_section.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1455,10 +1455,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/lock_core.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1501,10 +1501,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/mutex.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1550,10 +1550,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/sem.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1597,10 +1597,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/time.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1670,10 +1670,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/timeout_helper.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1714,10 +1714,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1775,10 +1775,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1823,10 +1823,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1881,10 +1881,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/platform.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1921,10 +1921,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platf
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_boot_lock/boot_lock.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -1961,10 +1961,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2019,10 +2019,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2073,10 +2073,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2119,10 +2119,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/flash.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2174,10 +2174,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/gpio.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2228,10 +2228,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/irq.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2284,10 +2284,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/pio.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2344,10 +2344,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2391,10 +2391,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2432,10 +2432,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2472,10 +2472,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/ticks.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2514,10 +2514,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/timer.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2565,10 +2565,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_uart/uart.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2617,10 +2617,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/vreg.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2658,10 +2658,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2717,10 +2717,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/xosc.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2761,10 +2761,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardwa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_base.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2806,10 +2806,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_a
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_freertos.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2871,23 +2871,23 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_a
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/queue.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/semphr.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/queue.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/semphr.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -2951,10 +2951,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_a
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_atomic/atomic.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3003,10 +3003,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_a
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3055,10 +3055,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_b
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom_lock.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3097,10 +3097,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_b
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3178,10 +3178,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3229,10 +3229,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43.h \
@@ -3309,10 +3309,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
@@ -3395,10 +3395,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/firmware/cyw43_btfw_43439.h \
@@ -3472,10 +3472,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_config.h \
@@ -3544,10 +3544,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43.h \
@@ -3637,10 +3637,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43.h \
@@ -3711,10 +3711,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_init_rom_rp2040.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3761,10 +3761,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_d
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3805,10 +3805,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_d
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3865,10 +3865,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_f
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3915,10 +3915,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_f
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_math.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -3960,10 +3960,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_f
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_malloc/malloc.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4015,10 +4015,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_m
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_multicore/multicore.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4078,10 +4078,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_m
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/panic.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4136,10 +4136,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_p
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_printf/printf.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4182,10 +4182,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_p
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4221,10 +4221,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_r
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4273,10 +4273,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_r
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4327,10 +4327,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_r
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4368,10 +4368,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_r
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4409,10 +4409,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio/stdio.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4471,10 +4471,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/reset_interface.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -4560,10 +4560,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -4651,10 +4651,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h \
@@ -4733,10 +4733,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdlib/stdlib.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4804,10 +4804,10 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_s
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
@@ -4855,12 +4855,12 @@ test/CMakeFiles/mytest.dir/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_u
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/croutine.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/croutine.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -4893,80 +4893,23 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/croutine.c.obj: /Users/tyler/Document
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/croutine.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/croutine.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/event_groups.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/event_groups.c \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/config.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/stdlib.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdlib.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
-  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/event_groups.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
-
-test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/list.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/event_groups.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/event_groups.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5006,21 +4949,78 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.obj: /Users/tyler/Documents/fa
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/event_groups.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/MemMang/heap_4.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/list.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/list.c \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/config.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/stdlib.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdlib.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+
+test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/MemMang/heap_4.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5064,22 +5064,22 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/portable/MemMang/heap_4.c.obj: /Users
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5135,24 +5135,24 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/event_groups.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/event_groups.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/queue.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/queue.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5196,23 +5196,23 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/queue.c.obj: /Users/tyler/Documents/f
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/queue.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/queue.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/stream_buffer.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/stream_buffer.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5253,23 +5253,23 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/stream_buffer.c.obj: /Users/tyler/Doc
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/stream_buffer.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/stream_buffer.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/tasks.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/tasks.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5313,24 +5313,24 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/tasks.c.obj: /Users/tyler/Documents/f
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/stack_macros.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/stack_macros.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/timers.c \
+test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/timers.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5370,24 +5370,24 @@ test/CMakeFiles/mytest.dir/__/lib/freertos/timers.c.obj: /Users/tyler/Documents/
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/queue.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/queue.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c \
+test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/testlab6.c \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
   /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -5464,27 +5464,27 @@ test/CMakeFiles/mytest.dir/testlab6.c.obj: /Users/tyler/Documents/fall2024/ECE57
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/queue.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/semphr.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/queue.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/semphr.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/unity/src/unity.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/unity/src/unity_internals.h \
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/unity_config.h
 
-test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c \
+test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/unity_config.c \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
@@ -5501,38 +5501,32 @@ test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/E
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
   /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
-  /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h
+  /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/unity_config.h
 
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.c:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/unity_config.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/unity/src/unity_internals.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h:
 
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/syslimits.h:
-
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/limits.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/test/testlab6.c:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/timers.c:
-
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/limits.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/stack_macros.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/MemMang/heap_4.c:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/event_groups.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/event_groups.c:
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/syslimits.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/setjmp.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/croutine.h:
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/limits.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/testlab6.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/queue.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/MemMang/heap_4.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/list.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/event_groups.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/croutine.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_unique_id/unique_id.c:
 
@@ -5564,9 +5558,11 @@ test/CMakeFiles/mytest.dir/unity_config.c.obj: /Users/tyler/Documents/fall2024/E
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
 
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/include/pico/double.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/double_math.c:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/list.c:
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c:
 
@@ -5584,13 +5580,9 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/cassert:
 
@@ -5614,9 +5606,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/unity_config.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/bootrom.c:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
@@ -5630,23 +5626,19 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/timers.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/semphr.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/projdefs.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/task.h:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/semphr.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/portable.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/queue.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/mpu_wrappers.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/projdefs.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/list.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/deprecated_definitions.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/FreeRTOS.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/FreeRTOS.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/include/pico/async_context_freertos.h:
 
@@ -5656,11 +5648,15 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_async_context/include/pico/async_context.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/stream_buffer.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/portable.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
 
@@ -5688,13 +5684,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pio/include/hardware/pio.h:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/timers.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
@@ -5728,11 +5724,7 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_btbus.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/task.h:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/include/pico/util/pheap.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/stream_buffer.c:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/time.h:
 
@@ -5750,6 +5742,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/clocks.c:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/mpu_wrappers.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_exception/exception.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/datetime.c:
@@ -5759,6 +5753,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_time/include/pico/timeout_helper.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_sync/include/pico/sync.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/deprecated_definitions.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/include/pico/runtime.h:
 
@@ -5776,8 +5772,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/claim.c:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/queue.c:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c:
@@ -5794,6 +5788,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
 
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/timespec.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_types.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
@@ -5803,6 +5801,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/dcd.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_private.h:
 
@@ -5876,6 +5876,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/croutine.c:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/watchdog.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_verify.h:
@@ -5898,15 +5900,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_fifo.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/stack_macros.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_common.h:
 
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/select.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/timers.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h:
 
@@ -5934,8 +5934,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_stats.c:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/tasks.c:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
@@ -5946,35 +5944,21 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/inttypes.h:
 
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/include/FreeRTOSConfig_examples_common.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c:
 
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/timespec.h:
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/select.h:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.c:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/include/hardware/irq.h:
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/event_groups.h:
 
-/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc_device.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_config.h:
-
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/time.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c:
-
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_double/include/pico/double.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig_examples_common.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_debug.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/include/FreeRTOSConfig.h:
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/queue.c:
 
@@ -5990,11 +5974,15 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_debug_pins.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/include/list.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/port.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_country.h:
 
@@ -6009,6 +5997,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_flash/include/hardware/flash.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_dma/dma.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
@@ -6028,13 +6018,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/queue.h:
-
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/test/unity_config.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/pheap.c:
 
@@ -6054,13 +6044,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_util/include/pico/util/datetime.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/tasks.c:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/cdc/cdc.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdio.h:
-
-/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
 
@@ -6070,11 +6060,21 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_config.h:
+
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/time.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
 
@@ -6092,23 +6092,25 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/device/usbd.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/stream_buffer.c:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_runtime/runtime.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/include/stream_buffer.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/unity/src/unity_internals.h:
-
-/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+/Users/tyler/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/common/tusb_debug.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h:
+
+/Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/lib/unity/src/unity.h:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
@@ -6181,8 +6183,6 @@ generated/pico_base/pico/config_autogen.h:
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h:
 
 /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/sched.h:
-
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/lib/freertos/croutine.c:
 
 /Users/tyler/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h:
 

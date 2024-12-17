@@ -1,5 +1,5 @@
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/realtime.elf:     file format elf32-littlearm
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/src/realtime.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -45,18 +45,18 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_rnglists 00003605  00000000  00000000  00032720  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line   000203c7  00000000  00000000  00035d25  2**0
+ 21 .debug_line   0002058f  00000000  00000000  00035d25  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_str    00006c5f  00000000  00000000  000560ec  2**0
+ 22 .debug_str    00006d0a  00000000  00000000  000562b4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_frame  00002c84  00000000  00000000  0005cd4c  2**2
+ 23 .debug_frame  00002c84  00000000  00000000  0005cfc0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_loclists 000175e2  00000000  00000000  0005f9d0  2**0
+ 24 .debug_loclists 000175e2  00000000  00000000  0005fc44  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 000002fa  00000000  00000000  00076fb2  2**0
+ 25 .debug_line_str 0000030d  00000000  00000000  00077226  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/realtime.elf:     file format elf32-littlearm
+/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/src/realtime.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

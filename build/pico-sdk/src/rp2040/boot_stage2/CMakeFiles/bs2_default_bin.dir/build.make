@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
+CMAKE_SOURCE_DIR = /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
+CMAKE_BINARY_DIR = /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2 && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2 && /Users/tyler/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6 /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2 /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler /Users/tyler/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2 /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2 /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

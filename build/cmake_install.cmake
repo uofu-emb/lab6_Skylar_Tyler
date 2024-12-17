@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
+# Install script for directory: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/FREERTOS_KERNEL/cmake_install.cmake")
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/pico-sdk/cmake_install.cmake")
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/src/cmake_install.cmake")
-  include("/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/test/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/FREERTOS_KERNEL/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/pico-sdk/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/src/cmake_install.cmake")
+  include("/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/test/cmake_install.cmake")
 
 endif()
 
@@ -61,6 +61,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

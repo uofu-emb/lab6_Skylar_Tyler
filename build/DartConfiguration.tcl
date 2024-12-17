@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6
-BuildDirectory: /Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6/build
+SourceDirectory: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler
+BuildDirectory: /Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: nasa.local
+Site: MacBookAir.hsd1.ut.comcast.net
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: PICO-gmake
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.30.1/bin/cmake" "/Users/tyler/Documents/fall2024/ECE5785-adv_emb/lab6"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.30.1/bin/cmake" "/Users/tyler/documents/fall2024/ECE5785-adv_emb/lab6d/lab6_Skylar_Tyler"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.30.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
