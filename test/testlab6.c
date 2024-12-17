@@ -22,6 +22,8 @@ static TaskHandle_t main_handle; // this is the main handle
 static TaskHandle_t t1; // max prio.
 static TaskHandle_t t2; // mid prio.
 static TaskHandle_t t3; // min prio.
+static TaskHandle_t t4; // mid prio.
+static TaskHandle_t t5; // min prio.
 
 void setUp(void) {}
 
@@ -113,11 +115,15 @@ void min_t(void *args){
 void busy_busy(void *args)
 {
     for (int i = 0; ; i++);
+            vTaskDelay(10);
+        vTaskDelete(NULL);
 }
 
 void busy_busy2(void *args)
 {
     for (int i = 0; ; i++);
+            vTaskDelay(10);
+        vTaskDelete(NULL);
 }
 
 void busy_yield(void *args)
@@ -125,6 +131,8 @@ void busy_yield(void *args)
     for (int i = 0; ; i++) {
         taskYIELD();
     }
+            vTaskDelay(10);
+        vTaskDelete(NULL);
 }
 
 void superVisor(void *args){
@@ -157,8 +165,8 @@ int main (void)
     printf("Start tests\n");
     //this is where  tests occu
     //xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
-    xTaskCreate(superVisor, "superVisor",
-                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
+    //xTaskCreate(superVisor, "superVisor",
+    //            configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
 
    // xTaskCreate(max_t, "t1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+ 3UL, &t1);
    // xTaskCreate(mid_t, "t2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2UL, &t2);
@@ -179,8 +187,8 @@ int main (void)
 
     gather_runtime_stats("main", false, true, false);
 
-    vTaskDelete(busy_busy);
-    vTaskDelete(busy_busy2);
+    vTaskDelete(t4);
+    vTaskDelete(t5);
 /*
 
     //P2
