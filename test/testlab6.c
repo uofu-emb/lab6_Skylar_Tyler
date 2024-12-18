@@ -111,7 +111,15 @@ void busy_busy_tim2(void *args)
     printf("HERE IS THE TIME: time2 %i", start);
 
     printf("busy busy 2 is running\n");
-    for (int i = 0; ; i++);
+    for (int i = 0; ; i++){
+        printf("for loop running\n");
+        int32_t stop = xTaskGetTickCount();
+        time2 = start - stop;
+        printf("HERE IS THE TIME: time2 %i", time2);
+        vTaskDelay(10);
+    }
+    //
+    /*
     uint32_t stop = xTaskGetTickCount();
     time2 = start - stop;
     printf("HERE IS THE TIME: time2 %i", time2);
@@ -119,7 +127,7 @@ void busy_busy_tim2(void *args)
 
     //printf(time2);
     vTaskDelete(NULL);
-
+*/
 }
 
 
