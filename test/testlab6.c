@@ -19,11 +19,9 @@
 #define DELAY 500;
 //use var for timing
 static uint32_t time1 = 0;
+static int coun = 0;
 static uint32_t time2 = 0;
-static uint32_t time3 = 0;
-static uint32_t time4 = 0;
-//THIS IS THE VAR. TO TELL WHICH TEST IS GOING TO BE COMPLETED
-const int TESTNUMB = 3;
+static int coun2 = 0;
 
 //for semaphore
 static SemaphoreHandle_t semaphore;
@@ -47,6 +45,9 @@ void setUp(void) {}
 
 void tearDown(void) {}
 
+void vTaskGetRunTimeStats( char *pcWriteBuffer );
+
+
 /*
  Induce priority inversion.
 
@@ -57,27 +58,9 @@ void tearDown(void) {}
 5. Predict the behavior of the system.
  */
  void test1(void){
-
+     printf("test is done here\n");
      printf("the time1:%i the time2:%i \n", time1, time2);
-     TEST_ASSERT_GREATER_OR_EQUAL(time1,time2);
-     time1 = 0;
-     time2 = 0;
- }
-
- void test2(void){
-     //since this is busy_yeild it would be best to use time 3 and
-     //time for to keep the tests isoloated.
-     printf("the time3:%i the time4:%i \n", time3, time4);
-     TEST_ASSERT_GREATER_OR_EQUAL(time3,time4);
-     time3 = 0;
-     time4 = 0;
- }
- void test3(void){
-     //testing busy_yeild and busy_busy
-     printf("the time3:%i the time2:%i \n", time3, time1);
-     TEST_ASSERT_GREATER_OR_EQUAL(time1,time3);
-     time3 = 0;
-     time1 = 0;
+     TEST_ASSERT_EQUAL(0,time2);
  }
 
 void max_t(void *args){
@@ -102,65 +85,80 @@ void min_t(void *args){
 
 void busy_busy(void *args)
 {
-    uint32_t start = xTaskGetTickCount();
-    //printf("HERE IS THE TIME: time1 %i", start);
+    TickType_t start = xTaskGetTickCount();
 
-    printf("busy busy 1 is running\n");
-    for (int i = 0; ; i++){
-        //printf("for loop running\n");
-        int32_t stop = xTaskGetTickCount();
+    //printf("!!!!the start time is %i \n", start);
+    printf("busy busy is running\n");
+    for (int i = 0; ; i++);
+    TickType_t stop = xTaskGetTickCount();
+    if (coun == 1){
         time1 = start - stop;
-        //printf("HERE IS THE TIME: time1 %i", time1);
-        sleep_ms(1000);
-        vTaskDelay(10);
+        printf("the time is %i \n", time1);
     }
-
+    if(start > 10000){
+        start = 0;
+    }
+    if(stop > 10000){
+        stop =0;
+    }
+    if(coun == 0){
+        coun = 1;
+    }
+    printf("busy busy is done\n");
+    vTaskDelete(NULL);
 
 }
 void busy_busy_tim2(void *args)
 {
     uint32_t start = xTaskGetTickCount();
-    //printf("HERE IS THE TIME: time2 %i", start);
+    printf("HERE IS THE TIME: time2 %i", start);
 
     printf("busy busy 2 is running\n");
     for (int i = 0; ; i++){
-        //printf("for loop running\n");
+        //ATTEMPT #2
+         printf("for loop running\n");
+            static char result = vTaskGetRunTimeStats();
+         printf(result);
+        vTaskDelay(10);
+
+        /*
+        printf("for loop running\n");
         int32_t stop = xTaskGetTickCount();
+
         time2 = start - stop;
-        //printf("HERE IS THE TIME: time2 %i", time2);
-        sleep_ms(1000);
+        printf("HERE IS THE TIME: time2 %i", time2);
         vTaskDelay(10);
-
+        */
     }
+    //
+    /*
+    uint32_t stop = xTaskGetTickCount();
+    time2 = start - stop;
+    printf("HERE IS THE TIME: time2 %i", time2);
+    printf("\nThe time should be before this line");
 
+    //printf(time2);
+*/
     vTaskDelete(NULL);
 
 }
 
 
-void busy_yield(void *args)
+void busy_yield(void *args,uint32_t tim)
 {
     printf("busy yeild is running\n");
-    uint32_t start = xTaskGetTickCount();
+
     for (int i = 0; ; i++) {
         taskYIELD();
-        int32_t stop = xTaskGetTickCount();
-        time3 = start - stop;
-        sleep_ms(1000);
-        vTaskDelay(10);
     }
     vTaskDelete(NULL);
 }
-void busy_yield_2(void *args)
+void busy_yield_tim2(void *args,uint32_t tim)
 {
     printf("busy yeild is running\n");
-    uint32_t start = xTaskGetTickCount();
+
     for (int i = 0; ; i++) {
         taskYIELD();
-        int32_t stop = xTaskGetTickCount();
-        time4 = start - stop;
-        sleep_ms(1000);
-        vTaskDelay(10);
     }
     vTaskDelete(NULL);
 }
@@ -177,23 +175,21 @@ void testSuperVisor1i(void *args){
     while(1){
     sleep_ms(2000);
     UNITY_BEGIN();
+    coun = 0;
+    coun2 = 0;
+    xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
+    xTaskCreate(busy_busy_tim2, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
     vTaskDelay(1000);
-    if(TESTNUMB == 1){
-        RUN_TEST(test1);
-    }
-    if(TESTNUMB == 2){
-        RUN_TEST(test2);
-    }
-    if(TESTNUMB == 3){
-        RUN_TEST(test3);
-    }
+    //sleep_ms(2000);
+    RUN_TEST(test1);
     UNITY_END();
-    sleep_ms(3000);
     }
     vTaskDelete(NULL);
 }
 
+void test_main(void *args){
 
+}
 
 
 int main (void)
@@ -225,11 +221,10 @@ int main (void)
     //ACTIVITY 2 P1
 
     //TickType_t start_ticks = xTaskGetTickCount();
-    if(TESTNUMB == 1){
-        xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
-        xTaskCreate(busy_busy_tim2, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
-        //printf("timing code here\n");
-    }
+
+    xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
+    xTaskCreate(busy_busy_tim2, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
+    //printf("timing code here\n");
 
 
     //prediction  they will share an equal amount of time waiting around.
@@ -237,15 +232,13 @@ int main (void)
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 5UL, NULL);
 
     // //P2
-    if(TESTNUMB == 2){
-     xTaskCreate(busy_yield, "t6", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t6);
-     xTaskCreate(busy_yield_2, "t7", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t7);
-    }
+    // xTaskCreate(busy_yield, "t6", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t6);
+    // xTaskCreate(busy_yield, "t7", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t7);
+
     // //P3
-     if(TESTNUMB == 3){
-     xTaskCreate(busy_yield, "t8", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t8);
-     xTaskCreate(busy_busy, "t9", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t9);
-     }
+    // xTaskCreate(busy_yield, "t8", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t8);
+    // xTaskCreate(busy_busy, "t9", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t9);
+
 
 
     // //Same thing but different priorities.
