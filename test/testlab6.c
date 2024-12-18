@@ -57,7 +57,7 @@ void tearDown(void) {}
  void test1(void){
      printf("test is done here\n");
      printf("the time1:%i the time2:%i \n", time1, time2);
-     TEST_ASSERT_EQUAL(0,time2);
+     TEST_ASSERT_EQUAL(time1,time2);
  }
 
 void max_t(void *args){
@@ -82,27 +82,19 @@ void min_t(void *args){
 
 void busy_busy(void *args)
 {
-    TickType_t start = xTaskGetTickCount();
+    uint32_t start = xTaskGetTickCount();
+    printf("HERE IS THE TIME: time1 %i", start);
 
-    //printf("!!!!the start time is %i \n", start);
-    printf("busy busy is running\n");
-    for (int i = 0; ; i++);
-    TickType_t stop = xTaskGetTickCount();
-    if (coun == 1){
+    printf("busy busy 1 is running\n");
+    for (int i = 0; ; i++){
+        printf("for loop running\n");
+        int32_t stop = xTaskGetTickCount();
         time1 = start - stop;
-        printf("the time is %i \n", time1);
+        printf("HERE IS THE TIME: time1 %i", time1);
+        sleep_ms(1000);
+        vTaskDelay(10);
     }
-    if(start > 10000){
-        start = 0;
-    }
-    if(stop > 10000){
-        stop =0;
-    }
-    if(coun == 0){
-        coun = 1;
-    }
-    printf("busy busy is done\n");
-    vTaskDelete(NULL);
+
 
 }
 void busy_busy_tim2(void *args)
@@ -116,7 +108,9 @@ void busy_busy_tim2(void *args)
         int32_t stop = xTaskGetTickCount();
         time2 = start - stop;
         printf("HERE IS THE TIME: time2 %i", time2);
+        sleep_ms(1000);
         vTaskDelay(10);
+
     }
     //
     /*
@@ -168,9 +162,9 @@ void testSuperVisor1i(void *args){
     xTaskCreate(busy_busy, "t4", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t4);
     xTaskCreate(busy_busy_tim2, "t5", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &t5);
     vTaskDelay(1000);
-    //sleep_ms(2000);
     RUN_TEST(test1);
     UNITY_END();
+    sleep_ms(3000);
     }
     vTaskDelete(NULL);
 }
