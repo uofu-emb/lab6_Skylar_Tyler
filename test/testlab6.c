@@ -108,6 +108,8 @@ void busy_busy(void *args)
 void busy_busy_tim2(void *args)
 {
     uint32_t start = xTaskGetTickCount();
+    printf("HERE IS THE TIME: time2 %i", start);
+
     printf("busy busy 2 is running\n");
     for (int i = 0; ; i++);
     uint32_t stop = xTaskGetTickCount();
