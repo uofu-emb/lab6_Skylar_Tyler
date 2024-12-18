@@ -126,8 +126,9 @@ void busy_busy_tim2(void *args)
     printf("\nThe time should be before this line");
 
     //printf(time2);
-    vTaskDelete(NULL);
 */
+    vTaskDelete(NULL);
+
 }
 
 
