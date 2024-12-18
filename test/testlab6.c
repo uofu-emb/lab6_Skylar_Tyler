@@ -112,6 +112,8 @@ void busy_busy_tim2(void *args)
     for (int i = 0; ; i++);
     uint32_t stop = xTaskGetTickCount();
     time2 = start - stop;
+    print(time2);
+    printf(time2;)
     vTaskDelete(NULL);
 
 }
